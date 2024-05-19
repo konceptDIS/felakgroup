@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home || Felak Concept Group </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/loader.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/loader.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/loader.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Felak Group" />
 
@@ -84,12 +84,7 @@
 
                                 <li class="dropdown">
                                     <a href="#">Investors Ties</a>
-                                    <ul>
-                                        <li><a href="{{route('governance')}}">Coporate Governance</a></li>
-                                        <li><a href="{{route('business')}}">Business Conduct & Ethics</a></li>
-                                        <li><a href="{{route('relations')}}">Investor Relations</a></li>
-                                        <li><a href="{{route('hse')}}">HSE</a></li>
-                                    </ul>
+
                                 </li>
 
                                 <li>
@@ -109,8 +104,8 @@
                             <span></span>
                             <span></span>
                         </div><!-- /.mobile-nav__toggler -->
-                        
-                        
+
+
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container -->
@@ -130,7 +125,7 @@
                                 </a>
                                 <p class="footer-widget__about-text">At Felak Group, our subsidiaries are united by excellence and integrity. Spanning diverse sectors, we strive to make a positive impact across the globe.</p>
                             </div><!-- /.footer-widget -->
-                            
+
                         </div><!-- /.col-md-12 col-xl-3 -->
                         <div class="col-xl-3 col-md-5 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                             <div class="footer-widget footer-widget--contact">

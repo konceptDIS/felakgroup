@@ -355,7 +355,7 @@ h4,
 h5,
 h6 {
   font-family: var(--cleenhearts-heading-font, "Quicksand", sans-serif);
-  color: #000;
+  color: var(--cleenhearts-base, #351C42);
   font-weight: 700;
 }
 @media (max-width: 575px) {
@@ -697,7 +697,7 @@ textarea {
   background-color: #007FBD;
   padding: 16px 22px 16px 19px;
   transition: 500ms;
-  border-radius: 40px;
+  border-radius: 100px;
 }
 .cleenhearts-btn__icon-box {
   position: relative;
@@ -771,33 +771,33 @@ textarea {
   background-color: #98BF4C;
 }
 .cleenhearts-btn--white .cleenhearts-btn__icon-box__inner span {
-  color: #98BF4C;
+  color: var(--cleenhearts-base, #351C42);
 }
 .cleenhearts-btn--white:hover .cleenhearts-btn__text {
-  color: #98BF4C;
+  color: var(--cleenhearts-base, #351C42);
 }
 .cleenhearts-btn--border {
   background-color: transparent;
   border: 1px solid var(--cleenhearts-border-color, #D7D3CB);
 }
 .cleenhearts-btn--border .cleenhearts-btn__icon-box {
-  background-color: #007FBD;
+  background-color: #98BF4C;
 }
 .cleenhearts-btn--border .cleenhearts-btn__icon-box__inner span {
-  
+  color: var(--cleenhearts-base, #351C42);
 }
 .cleenhearts-btn--border .cleenhearts-btn__text {
-  color: #007FBD;
+  color: var(--cleenhearts-base, #351C42);
 }
 .cleenhearts-btn--border:hover .cleenhearts-btn__text {
-  color: #98BF4C;
+  color: var(--cleenhearts-base, #351C42);
 }
 .cleenhearts-btn--border-base {
   background-color: transparent;
-  border: 1px solid #98BF4C;
+  border: 1px solid var(--cleenhearts-base, #351C42);
 }
 .cleenhearts-btn--border-base .cleenhearts-btn__icon-box {
-  background-color: #98BF4C;
+  background-color: var(--cleenhearts-base, #351C42);
 }
 .cleenhearts-btn--bramble {
   color: var(--cleenhearts-white, #fff);
@@ -1265,7 +1265,7 @@ textarea {
 .block-title h3 {
   margin: 0;
   font-size: 35px;
-  color: #000;
+  color: var(--cleenhearts-dark, #24102F);
   font-family: var(--cleenhearts-special-font, "Schoolbell", cursive);
 }
 @media (min-width: 768px) {
@@ -1287,7 +1287,7 @@ textarea {
   padding-left: 45px;
   font-size: 16px;
   font-weight: 500;
-  color: #000;
+  color: var(--cleenhearts-dark, #24102F);
 }
 @media (min-width: 481px) {
   .ul-list-one li {
@@ -1296,7 +1296,7 @@ textarea {
 }
 .ul-list-one li::before {
   content: "\e907";
-  color: #000;
+  color: var(--cleenhearts-base, #351C42);
   font-size: 26px;
   position: absolute;
   top: 50%;
@@ -1307,6 +1307,7 @@ textarea {
 
 .preloader {
   position: fixed;
+  background-color: var(--cleenhearts-dark, #24102F);
   background-position: center center;
   background-repeat: no-repeat;
   top: 0;
@@ -1360,7 +1361,7 @@ textarea {
   display: inline;
   font-size: 12px;
   text-transform: uppercase;
-  color: #007FBD;
+  color: var(--cleenhearts-base, #351C42);
   letter-spacing: 0.1em;
   font-weight: 700;
   margin-right: 8px;
@@ -1369,7 +1370,7 @@ textarea {
   display: inline-block;
   width: 30px;
   height: 4px;
-  background-color: #007FBD;
+  background-color: var(--cleenhearts-base, #351C42);
   position: relative;
   overflow: hidden;
 }
@@ -6004,8 +6005,8 @@ textarea {
 .main-menu .main-menu__list li ul li:hover > a,
 .main-menu-two .main-menu__list li ul li.current > a,
 .main-menu-two .main-menu__list li ul li:hover > a {
-  background-color: #007FBD;
-  color: #000;
+  background-color: #98BF4C;
+  color: var(--cleenhearts-base, #351C42);
 }
 .main-menu .main-menu__list li ul li.current > a::after,
 .main-menu .main-menu__list li ul li:hover > a::after,
@@ -7110,7 +7111,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  border: 1px solid var(--cleenhearts-base, #007FBD);
+  border: 1px solid var(--cleenhearts-base, #351C42);
   -webkit-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
   position: fixed;
@@ -7125,7 +7126,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: var(--cleenhearts-base, #007FBD);
+  background-color: var(--cleenhearts-base, #351C42);
   opacity: 0.3;
   position: fixed;
   -webkit-transform: translate(-50%, -50%);
@@ -17445,7 +17446,7 @@ li:hover .sidebar__comments__icon::after {
   background-color: #303030;
   overflow: hidden;
   z-index: 1;
-  
+
 }
 .help-donate-one__bg {
   position: absolute;
@@ -19527,7 +19528,7 @@ li:hover .sidebar__comments__icon::after {
 # Become Volunteer
 --------------------------------------------------------------*/
 .become-volunteer {
-  
+
 }
 .become-volunteer__image__inner {
   max-width: 472px;
@@ -19572,7 +19573,7 @@ li:hover .sidebar__comments__icon::after {
   margin-left: 1px;
   position: relative;
   padding: 61px 60px 60px;
-  background-color: #007FBD;
+  background-color: #98BF4C;
   border-radius: 20px;
 }
 @media (max-width: 1199px) {
