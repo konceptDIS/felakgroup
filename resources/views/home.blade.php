@@ -222,7 +222,7 @@
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="event-card-grid @@extraClassName">
                             <a href="event-details-right.html" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-1.jpg" alt="Let’s education for children get good life style with go us Our donation is hope">
+                                <img src="assets/images/events/event-4-1.jpg" alt="">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
                                         <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
@@ -231,24 +231,20 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Let’s education for children get good life style with go us Our donation is hope</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
+                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, dolorum!</a></h4><!-- /.event-card-grid__title -->
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
+                                    <div class="cleenhearts-btn__icon-box">
+                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
+                                    </div>
+                                    <span class="cleenhearts-btn__text">Learn more</span>
+                                </a>
                             </div><!-- /.event-card-grid__content -->
                         </div><!-- /.event-card-grid -->
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="event-card-grid event-card-grid--reverse">
                             <a href="event-details-right.html" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-2.jpg" alt="There are many variations of passages of available but majority have alteration">
+                                <img src="assets/images/events/event-4-2.jpg" alt="">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
                                         <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
@@ -257,24 +253,20 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">There are many variations of passages of available but majority have alteration</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
+                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quisquam!</a></h4><!-- /.event-card-grid__title -->
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
+                                    <div class="cleenhearts-btn__icon-box">
+                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
+                                    </div>
+                                    <span class="cleenhearts-btn__text">Learn more</span>
+                                </a>
                             </div><!-- /.event-card-grid__content -->
                         </div><!-- /.event-card-grid -->
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="event-card-grid @@extraClassName">
                             <a href="event-details-right.html" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-3.jpg" alt="If you are going to use a passage of Lorem Ipsum, you need to be sure there">
+                                <img src="assets/images/events/event-4-3.jpg" alt="">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
                                         <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
@@ -283,24 +275,20 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">If you are going to use a passage of Lorem Ipsum, you need to be sure there</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
+                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, nihil!</a></h4><!-- /.event-card-grid__title -->
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
+                                    <div class="cleenhearts-btn__icon-box">
+                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
+                                    </div>
+                                    <span class="cleenhearts-btn__text">Learn more</span>
+                                </a>
                             </div><!-- /.event-card-grid__content -->
                         </div><!-- /.event-card-grid -->
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="event-card-grid event-card-grid--reverse">
                             <a href="event-details-right.html" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-4.jpg" alt="injected humour, or randomised words which don’t look even use a passage">
+                                <img src="assets/images/events/event-4-4.jpg" alt="">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
                                         <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
@@ -309,24 +297,20 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">injected humour, or randomised words which don’t look even use a passage</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
+                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, a!</a></h4><!-- /.event-card-grid__title -->
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
+                                    <div class="cleenhearts-btn__icon-box">
+                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
+                                    </div>
+                                    <span class="cleenhearts-btn__text">Learn more</span>
+                                </a>
                             </div><!-- /.event-card-grid__content -->
                         </div><!-- /.event-card-grid -->
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="event-card-grid @@extraClassName">
                             <a href="event-details-right.html" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-5.jpg" alt="The generated Lorem Ipsum is therefore always free from repetition">
+                                <img src="assets/images/events/event-4-5.jpg" alt="">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
                                         <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
@@ -335,24 +319,20 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">The generated Lorem Ipsum is therefore always free from repetition</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
+                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, architecto.</a></h4><!-- /.event-card-grid__title -->
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
+                                    <div class="cleenhearts-btn__icon-box">
+                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
+                                    </div>
+                                    <span class="cleenhearts-btn__text">Learn more</span>
+                                </a>
                             </div><!-- /.event-card-grid__content -->
                         </div><!-- /.event-card-grid -->
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="event-card-grid event-card-grid--reverse">
                             <a href="event-details-right.html" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-6.jpg" alt="you need to be sure there isn’t anything embarrassing hidden in the middle">
+                                <img src="assets/images/events/event-4-6.jpg" alt="">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
                                         <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
@@ -361,23 +341,20 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">you need to be sure there isn’t anything embarrassing hidden in the middle</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
+                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, corporis!</a></h4><!-- /.event-card-grid__title -->
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
+                                    <div class="cleenhearts-btn__icon-box">
+                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
+                                    </div>
+                                    <span class="cleenhearts-btn__text">Learn more</span>
+                                </a>
                             </div><!-- /.event-card-grid__content -->
                         </div><!-- /.event-card-grid -->
                     </div><!-- /.item -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.events-page section-space -->
+
 
         <section class="help-donate-one section-space-top">
             <div class="help-donate-one__bg cleenhearts-jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/help-donate-bg-1-1.jpg);"></div><!-- /.cta-one__bg -->
@@ -451,14 +428,14 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
                                 <img src="assets/images/blog/blog-3-1.jpg" alt="Felak Concept">
                                 
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Felak Concept Limited</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt a quis ea, iste sapiente accusantium?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>Felak Concept Limited is a focused company proffering services in Marine Advisory/Consultancy, Port Masterplan Development..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -470,13 +447,13 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
                                 <img src="assets/images/blog/blog-3-2.jpg" alt="Altex Engineering">
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Altex Engineering</a></h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio iure atque voluptatibus a, eos doloremque.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>Altex Engineering Services is a versatile engineering company that provide services in Construction, Project/Facility..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -488,13 +465,13 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-1.jpg" alt="">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
+                                <img src="assets/images/blog/blog-3-3.jpg" alt="">
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Ocean Gate Oil & Gas</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi error quisquam beatae magnam! Voluptatibus.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>Oceangate Oil and Gas Engineering Limited is an innovative company uniquely positioned to proffer solutions in..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -506,13 +483,13 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
+                                <img src="assets/images/blog/blog-3-4.jpg" alt="">
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Koncept Digital(KDIS)</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fugit accusantium autem facere perspiciatis quod?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>Koncept Digital Integrated Service is a Nigerian ICT firm led by dedicated ICT professionals with several years of ..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -524,13 +501,13 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
+                                <img src="assets/images/blog/blog-3-5.jpg" alt="">
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Ay-dol International</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nihil eveniet accusamus quod. Corporis, ad?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>Ay-Dol International Limited is a viable multi-disciplinary company that proffer services in General Services, Design..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -542,13 +519,13 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
+                                <img src="assets/images/blog/blog-3-6.jpg" alt="">
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Skills & Careers(SCSC)</a></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum laudantium tempora, corporis molestiae aliquam vel.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>Skills and Careers Support Centre is a consulting company providing learning and development services locally and..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -560,13 +537,13 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
+                                <img src="assets/images/blog/blog-3-7.jpg" alt="">
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Wishwhich Koncept</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in, quasi incidunt molestias soluta aperiam?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>>At wish which we are passionate about offering you the finest tourism and entertainment experience..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -578,13 +555,13 @@
                     <div class="item">
                         <div class="blog-card-three">
                             <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
+                            <a href="subsidiaries.html" class="blog-card-three__image">
+                                <img src="assets/images/blog/blog-3-8.jpg" alt="">
                             </a><!-- /.blog-card-three__image -->
                             <div class="blog-card-three__content">
                                 <h3 class="blog-card-three__title"><a href="blog-details-right.html">Sam Empoerment(SEF)</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis consectetur quibusdam veritatis distinctio eum minus.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
+                                <p>Sam Empowerment Foundation (SEF) is a registered non – governmental, non-religious, non-political Organization whose sole..</p>
+                                <a href="subsidiaries.html" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>
@@ -610,7 +587,7 @@
                             </div><!-- /.sec-title -->
                         </div><!-- /.col-lg-7 -->
                         <div class="col-lg-5 wow fadeInRight" data-wow-duration="1500ms">
-                            <p class="testimonials-two__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit nemo ut commodi error hic itaque porro vero dolores maiores!</p><!-- /.testimonials-two__text -->
+                            <p class="testimonials-two__text">At our company, diversity fuels innovation and growth across our multiple subsidiaries. Our varied expertise spans numerous sectors, enriching our collective knowledge and capabilities. We thrive on the unique perspectives and talents that each team member brings, driving us towards a stronger, more inclusive future.</p><!-- /.testimonials-two__text -->
                         </div><!-- /.col-lg-5 -->
                     </div><!-- /.row gutter-y-40 -->
                 </div><!-- /.testimonials-two__top -->

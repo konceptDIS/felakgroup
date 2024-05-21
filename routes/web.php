@@ -29,6 +29,23 @@ Route::get('/subsidiaries', function () {
     return view('subsidiaries');
 }) ->name('subsidiaries');
 
+Route::get('/governance', function () {
+    return view('governance');
+}) ->name('governance');
+
+Route::get('/business', function () {
+    return view('business');
+}) ->name('business');
+
+Route::get('/relations', function () {
+    return view('relations');
+}) ->name('relations');
+
+Route::get('/hse', function () {
+    return view('hse');
+}) ->name('hse');
+
+
 Route::get('/csr', function () {
     return view('csr');
 }) ->name('csr');
