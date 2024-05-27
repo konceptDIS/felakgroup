@@ -24,8 +24,8 @@
 
                             <div class="main-slider-one__content">
                                 <h2 class="main-slider-one__title">
-                                    <span class="main-slider-one__title__text">Lorem, ipsum dolor.</span><br>
-                                    <span class="main-slider-one__title__text">Lorem ipsum dolor sit.</span>
+                                    <span class="main-slider-one__title__text">Felak Concept Limited</span><br>
+                                    <span class="main-slider-one__title__text slider-text-2">Felak Concept Limited (FCL) is an expert consortium offering a range of world class consultancy, training and project management services to private and public sector clients.</span>
                                 </h2><!-- slider-title -->
                                 <div class="main-slider-one__btn">
                                     <a href="become-a-volunteer.html" class="cleenhearts-btn">
@@ -46,8 +46,8 @@
                             <div class="main-slider-one__content">
 
                                 <h2 class="main-slider-one__title">
-                                    <span class="main-slider-one__title__text">Lorem, ipsum dolor.</span><br>
-                                    <span class="main-slider-one__title__text">Lorem ipsum dolor sit.</span>
+                                    <span class="main-slider-one__title__text">Koncept Digital Integrated Services.</span><br>
+                                    <span class="main-slider-one__title__text slider-text-2">We provide innovative and scalable business quality engineering solutions that protect your brand through end-to-end value demonstration with laser focus on customer experience and release velocity. We have years of innovation and excellence.</span>
                                 </h2><!-- slider-title -->
 
                                 <div class="main-slider-one__btn">
@@ -69,8 +69,8 @@
                             <div class="main-slider-one__content">
 
                                 <h2 class="main-slider-one__title">
-                                    <span class="main-slider-one__title__text">Lorem, ipsum dolor.</span><br>
-                                    <span class="main-slider-one__title__text">Lorem ipsum dolor sit.</span>
+                                    <span class="main-slider-one__title__text">WishWish Koncept.</span><br>
+                                    <span class="main-slider-one__title__text slider-text-2">a dynamic organisation that delivers services in Media, Tourism, Entertainment and Consultancy. Our creative approach to implementation has placed us on a vantage position to meet our clients' specific needs leading to optimal satisfaction.</span>
                                 </h2><!-- slider-title -->
                                 <div class="main-slider-one__btn">
                                     <a href="become-a-volunteer.html" class="cleenhearts-btn">

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home || Felak Concept Group </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/loader.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/loader.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/loader.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/felakgroup.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/felakgroup.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/felakgroup.png" />
     <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Felak Group" />
 
@@ -54,7 +54,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="index.html">
-                            <img src="/assets/images/logo-dark.png" alt="felak group" width="130">
+                            <img src="/assets/images/felakgroup-logo-light.png" alt="felak group" width="130">
                         </a>
                         <button type="button" class="main-header__sidebar-btn sidebar-btn__toggler">
                             <span class="icon-grid"></span>
