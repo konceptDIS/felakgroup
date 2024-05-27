@@ -15,11 +15,11 @@
         </section><!-- /.page-header -->
 
         <section class="about-one @@extraClassName section-space">
-            
+
             <div class="container">
                 <div class="row gutter-y-50">
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
-                        <div class="faq-one__image">
+                        <div class="faq-one__image" style="margin-top: -135px;">
                             <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
@@ -32,31 +32,31 @@
                                 <h3 class="sec-title__title">Felak Concept Group</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <div class="about-one__text-box wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                
+
                                 <p class="about-one__text">Felak Concept Group is a professional consortium operating in diverse sectors such as Oil and Gas, Infrastrutural Engineering, Marine Advisory/Consultancy, Digital Solutions, Learning and Development, Media Consulting/Solutions, Design and Remodelling. with a robust corporate social responsibility platform (SEF) where we give back to the society.<br><br></p>
-                                
+
                             </div><!-- /.about-one__text-box -->
                             <div class="about-one__text-box wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                
+
                                 <p class="about-one__text">We are driven by excellence at all times and grow dynamically through our expertise and strong network of strategic partners. Our fundamental principles are guided by Technology, Innovation, Sustainability and Commitment.</p>
-                                
+
                             </div><!-- /.about-one__text-box -->
-                            
+
                                 <h6 class="sec-title__tagline @@extraClassName" style="margin-top: 30px;">MISSION</h6>
-                            
+
                                 <div class="about-one__text-box wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <p class="about-one__text">To build a universal brand that provides quality, innovative and professional services that address the challenging needs of our partners.</p>
-                                    
+
                                 </div>
 
                                 <h6 class="sec-title__tagline @@extraClassName" style="margin-top: 30px;">VISION</h6>
-                            
+
                                 <div class="about-one__text-box wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                     <p class="about-one__text">To be a leading global group with exceptional services and expertise in our various fields of operations.<br><br></p>
-                                    
+
                                 </div>
-                            
-                            
+
+
                         </div><!-- /.about-one__content -->
                     </div>
                 </div><!-- /.row -->
@@ -139,8 +139,8 @@
                                 <h3 class="sec-title__title">We Are Serving Everywhere</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="worldwide-one__text">Our global presence ensures you're supported, no matter your corner of the world. We're a diverse company, offering subsidies across oil & gas, technology, hospitality, engineering, and security.  Experience the power of a connected world – explore how we can empower your needs.</p><!-- /.worldwide-one__text -->
-                            
-                            
+
+
                         </div>
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6">
@@ -149,61 +149,61 @@
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--two">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--three">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--four">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                               
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--five">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--six">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--seven">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--eight">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--nine">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                         </div><!-- /.worldwide-one__right -->
                     </div><!-- /.col-xl-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-            
+
         </section><!-- /.worldwide-one section-space -->
 
 
@@ -245,30 +245,38 @@
                 }
             }
             }'>
-                    <div class="client-carousel__item">
-                        <img src="assets/images/resources/brand-1-1.png" alt="brand" class="client-carousel__item__img">
-                        <img src="assets/images/resources/brand-1-7.png" alt="brand" class="client-carousel__item__hover-img">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__item">
-                        <img src="assets/images/resources/brand-1-2.png" alt="brand" class="client-carousel__item__img">
-                        <img src="assets/images/resources/brand-1-8.png" alt="brand" class="client-carousel__item__hover-img">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__item">
-                        <img src="assets/images/resources/brand-1-3.png" alt="brand" class="client-carousel__item__img">
-                        <img src="assets/images/resources/brand-1-9.png" alt="brand" class="client-carousel__item__hover-img">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__item">
-                        <img src="assets/images/resources/brand-1-4.png" alt="brand" class="client-carousel__item__img">
-                        <img src="assets/images/resources/brand-1-10.png" alt="brand" class="client-carousel__item__hover-img">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__item">
-                        <img src="assets/images/resources/brand-1-5.png" alt="brand" class="client-carousel__item__img">
-                        <img src="assets/images/resources/brand-1-11.png" alt="brand" class="client-carousel__item__hover-img">
-                    </div><!-- /.owl-slide-item-->
-                    <div class="client-carousel__item">
-                        <img src="assets/images/resources/brand-1-6.png" alt="brand" class="client-carousel__item__img">
-                        <img src="assets/images/resources/brand-1-12.png" alt="brand" class="client-carousel__item__hover-img">
-                    </div><!-- /.owl-slide-item-->
+                    <a href="https://felakconcept.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-1.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-1.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://altexengineering.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-2.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-2.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="https://oceangateoilandgas.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-3.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-3.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="https://konceptdigital.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-4.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-4.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://aydolinternational.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-5.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-5.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://scscng.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-6.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-6.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="https://wishwhich.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-7.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-7.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://samempowermentfoundation.org/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-8.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-8.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
                 </div><!-- /.thm-owl__slider -->
             </div><!-- /.container -->
         </div><!-- /.client-carousel -->

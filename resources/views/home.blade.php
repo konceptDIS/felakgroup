@@ -98,8 +98,14 @@
 
                             <h3 class="sec-title__title">Felak Concept Group</h3><!-- /.sec-title__title -->
                         </div><!-- /.sec-title -->
-                        <p class="inspiring-one__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ut necessitatibus nesciunt aliquam temporibus, enim voluptate labore eius velit nam corrupti! Recusandae minus rem repellat quidem ad! Rerum minima mollitia numquam similique, cum dolore aliquid, labore aperiam repudiandae suscipit deleniti.</p><!-- /.inspiring-one__text -->
+                        <p class="inspiring-one__text">Felak Concept Group is a professional consortium operating in diverse sectors such as Oil and Gas, Infrastrutural Engineering, Marine Advisory/Consultancy, Digital Solutions, Learning and Development, Media Consulting/Solutions, Design and Remodelling. with a robust corporate social responsibility platform (SEF) where we give back to the society.</p>
+                        <a href="{{route('about')}}" class="cleenhearts-btn">
+                            <div class="cleenhearts-btn__icon-box">
+                                <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
+                            </div>
+                            <span class="cleenhearts-btn__text">Learn More</span>
+                        </a>
+                        {{-- <p>We are driven by excellence at all times and grow dynamically through our expertise and strong network of strategic partners. Our fundamental principles are guided by Technology, Innovation, Sustainability and Commitment.</p><!-- /.inspiring-one__text --> --}}
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="about-one__left">
@@ -379,7 +385,82 @@
             </div><!-- /.container -->
         </section><!-- /.events-page section-space -->
 
-        <section class="help-donate-one section-space-top">
+        <div class="client-carousel @@extraClassName d-flex justify-content-center" style="padding-bottom: 0px">
+            <h6 class="sec-title__tagline @@extraClassName" style="position: absolute;">OUR SUBSIDIARIES</h6>
+            <div class="container">
+                <div class="client-carousel__one cleenhearts-owl__carousel cleenhearts-owl__carousel--basic-nav owl-theme owl-carousel" data-owl-options='{
+            "items": 5,
+            "margin": 65,
+            "smartSpeed": 700,
+            "loop":true,
+            "autoplay": 6000,
+            "nav":true,
+            "dots":false,
+            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+            "responsive":{
+                "0":{
+                    "items": 2,
+                    "margin": 50
+                },
+                "360":{
+                    "items": 3,
+                    "margin": 40
+                },
+                "575":{
+                    "items": 4,
+                    "margin": 40
+                },
+                "768":{
+                    "items": 4,
+                    "margin": 80
+                },
+                "992":{
+                    "items": 5,
+                    "margin": 100
+                },
+                "1200":{
+                    "items": 6,
+                    "margin": 134
+                }
+            }
+            }'>
+                    <a href="https://felakconcept.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-1.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-1.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://altexengineering.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-2.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-2.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="https://oceangateoilandgas.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-3.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-3.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="https://konceptdigital.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-4.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-4.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://aydolinternational.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-5.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-5.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://scscng.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-6.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-6.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="https://wishwhich.net/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-7.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-7.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                    <a href="http://samempowermentfoundation.org/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-8.jpg')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-8.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    </a><!-- /.owl-slide-item-->
+                </div><!-- /.thm-owl__slider -->
+            </div><!-- /.container -->
+        </div><!-- /.client-carousel -->
+
+        <section class="help-donate-one section-space-top" style="margin-top: 100px">
             <div class="help-donate-one__bg cleenhearts-jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/help-donate-bg-1-1.jpg);"></div><!-- /.cta-one__bg -->
 
             <div class="container">
@@ -387,7 +468,7 @@
                     <h6 class="sec-title__tagline sec-title__tagline--center">Our Subsidiaries</h6><!-- /.sec-title__tagline -->
                 </div><!-- /.sec-title -->
             </div><!-- /.container -->
-            <div class="help-donate-one__slide">
+            {{-- <div class="help-donate-one__slide">
                 <span class="help-donate-one__text help-donate-one__text--one">Felak Concept</span><!-- /.help-donate-one__text -->
                 <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
                 <span class="help-donate-one__text help-donate-one__text--two">Altex Engineering</span><!-- /.help-donate-one__text -->
@@ -411,7 +492,7 @@
                 <span class="help-donate-one__text help-donate-one__text--one">Ocean Gate</span><!-- /.help-donate-one__text -->
                 <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
                 <span class="help-donate-one__text help-donate-one__text--two">Koncept Digital</span><!-- /.help-donate-one__text -->
-            </div><!-- /.help-donate-one__slide -->
+            </div><!-- /.help-donate-one__slide --> --}}
         </section><!-- /.help-donate-one section-space-top -->
 
         <section class="donations-one donations-carousel section-space-bottom">
