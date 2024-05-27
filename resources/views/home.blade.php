@@ -93,9 +93,7 @@
                 <div class="row gutter-y-50">
                     <div class="col-xl-6">
                         <div class="sec-title">
-
                             <h6 class="sec-title__tagline @@extraClassName">WHO WE ARE</h6><!-- /.sec-title__tagline -->
-
                             <h3 class="sec-title__title">Felak Concept Group</h3><!-- /.sec-title__title -->
                         </div><!-- /.sec-title -->
                         <p class="inspiring-one__text">Felak Concept Group is a professional consortium operating in diverse sectors such as Oil and Gas, Infrastrutural Engineering, Marine Advisory/Consultancy, Digital Solutions, Learning and Development, Media Consulting/Solutions, Design and Remodelling. with a robust corporate social responsibility platform (SEF) where we give back to the society.</p>
@@ -105,7 +103,6 @@
                             </div>
                             <span class="cleenhearts-btn__text">Learn More</span>
                         </a>
-                        {{-- <p>We are driven by excellence at all times and grow dynamically through our expertise and strong network of strategic partners. Our fundamental principles are guided by Technology, Innovation, Sustainability and Commitment.</p><!-- /.inspiring-one__text --> --}}
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="about-one__left">
@@ -138,7 +135,7 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="1200" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="20" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
                                 <h5 class="about-info__title">years in service</h5>
@@ -152,7 +149,7 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="7200" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="500" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
                                 <h5 class="about-info__title">Active Staff</h5>
@@ -166,10 +163,10 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="15900" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="78" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
-                                <h5 class="about-info__title">work hours</h5>
+                                <h5 class="about-info__title">Projects Completed</h5>
                             </div><!-- /.about-info__content -->
                         </div><!-- /.about-info__item -->
                     </div><!-- /.col-xl-3 col-lg-4 col-md-6 -->
@@ -193,6 +190,7 @@
 
         <section class="events-page section-space">
             <div class="container">
+                <h6 class="sec-title__tagline @@extraClassName" style="margin-bottom: 30px">What's New</h6>
                 <div class="tevents-page__carousel cleenhearts-owl__carousel cleenhearts-owl__carousel--basic-nav owl-theme owl-carousel" data-owl-options='{
             "items": 2,
             "margin": 30,
@@ -460,238 +458,17 @@
             </div><!-- /.container -->
         </div><!-- /.client-carousel -->
 
-        <section class="help-donate-one section-space-top" style="margin-top: 100px">
-            <div class="help-donate-one__bg cleenhearts-jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/help-donate-bg-1-1.jpg);"></div><!-- /.cta-one__bg -->
-
-            <div class="container">
-                <div class="sec-title">
-                    <h6 class="sec-title__tagline sec-title__tagline--center">Our Subsidiaries</h6><!-- /.sec-title__tagline -->
-                </div><!-- /.sec-title -->
-            </div><!-- /.container -->
-            {{-- <div class="help-donate-one__slide">
-                <span class="help-donate-one__text help-donate-one__text--one">Felak Concept</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--two">Altex Engineering</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--one">Ocean Gate</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--two">Koncept Digital</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--one">Ay-dol</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--two">SCSC</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--one">Wishwhich</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--two">SEF</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--one">Felak Concept</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--two">Altex Engineering</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--one">Ocean Gate</span><!-- /.help-donate-one__text -->
-                <img src="assets/images/resources/help-donate-1-1.png" alt="help-donate" class="help-donate-one__image">
-                <span class="help-donate-one__text help-donate-one__text--two">Koncept Digital</span><!-- /.help-donate-one__text -->
-            </div><!-- /.help-donate-one__slide --> --}}
-        </section><!-- /.help-donate-one section-space-top -->
-
-        <section class="donations-one donations-carousel section-space-bottom">
-            <div class="container">
-                <div class="blog-three__carousel cleenhearts-owl__carousel cleenhearts-owl__carousel--basic-nav owl-theme owl-carousel" data-owl-options='{
-            "items": 3,
-            "margin": 30,
-            "smartSpeed": 700,
-            "loop":true,
-            "autoplay": 6000,
-            "nav":false,
-            "dots":true,
-            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
-            "responsive":{
-                "0":{
-                    "items": 1,
-                    "margin": 20
-                },
-                "575":{
-                    "items": 1,
-                    "margin": 30
-                },
-                "768":{
-                    "items": 1,
-                    "margin": 30
-                },
-                "992":{
-                    "items": 2,
-                    "margin": 30
-                },
-                "1200":{
-                    "items": 2,
-                    "margin": 30
-                }
-            }
-            }'>
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-1.jpg" alt="Felak Concept">
-
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Felak Concept Limited</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt a quis ea, iste sapiente accusantium?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="Altex Engineering">
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Altex Engineering</a></h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio iure atque voluptatibus a, eos doloremque.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-1.jpg" alt="">
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Ocean Gate Oil & Gas</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi error quisquam beatae magnam! Voluptatibus.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Koncept Digital(KDIS)</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, fugit accusantium autem facere perspiciatis quod?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Ay-dol International</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nihil eveniet accusamus quod. Corporis, ad?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Skills & Careers(SCSC)</a></h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum laudantium tempora, corporis molestiae aliquam vel.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Wishwhich Koncept</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in, quasi incidunt molestias soluta aperiam?</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <div class="blog-card-three">
-                            <div class="blog-card-three__bg" style="background-image: url('assets/images/blog/blog-bg-3-1.png');"></div>
-                            <a href="blog-details-right.html" class="blog-card-three__image">
-                                <img src="assets/images/blog/blog-3-2.jpg" alt="">
-                            </a><!-- /.blog-card-three__image -->
-                            <div class="blog-card-three__content">
-                                <h3 class="blog-card-three__title"><a href="blog-details-right.html">Sam Empoerment(SEF)</a></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis consectetur quibusdam veritatis distinctio eum minus.</p>
-                                <a href="blog-details-right.html" class="cleenhearts-btn">
-                                    <div class="cleenhearts-btn__icon-box">
-                                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
-                                    </div>
-                                    <span class="cleenhearts-btn__text">Learn more</span>
-                                </a>
-                            </div><!-- /.blog-card-three__content -->
-                        </div><!-- /.blog-card-three -->
-                    </div><!-- /.item -->
-                </div><!-- /.blog-three__carousel -->
-            </div>
-        </section><!-- /.donations-one donations-carousel section-space-bottom -->
-
-        <section class="section-space-bottom">
+        <section class="section-space-bottom" style="margin-top: 100px;">
             <div class="container">
                 <div class="testimonials-two__top">
                     <div class="row gutter-y-30 align-items-center">
                         <div class="col-lg-7">
                             <div class="sec-title">
-
-
-
                                 <h3 class="sec-title__title">Diversity is our strength</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                         </div><!-- /.col-lg-7 -->
                         <div class="col-lg-5 wow fadeInRight" data-wow-duration="1500ms">
-                            <p class="testimonials-two__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit nemo ut commodi error hic itaque porro vero dolores maiores!</p><!-- /.testimonials-two__text -->
+                            <p class="testimonials-two__text">At our company, diversity fuels innovation and growth across our multiple subsidiaries. Our varied expertise spans numerous sectors, enriching our collective knowledge and capabilities. We thrive on the unique perspectives and talents that each team member brings, driving us towards a stronger, more inclusive future.</p><!-- /.testimonials-two__text -->
                         </div><!-- /.col-lg-5 -->
                     </div><!-- /.row gutter-y-40 -->
                 </div><!-- /.testimonials-two__top -->

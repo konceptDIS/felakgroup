@@ -4951,8 +4951,18 @@ textarea {
   width: 100%;
 }
 
-.main-menu__list li a {
+.main-header:not(.sticky-header--cloned) .main-menu__list li a {
     color: #fff !important;
+}
+
+.main-header .felak-logo-img{
+    content: url('/assets/images/felakgroup-logo-light.png');
+    max-width: 120px !important;
+}
+
+.main-header.sticky-header--cloned .felak-logo-img{
+    content: url('/assets/images/felakgroup-logo.png');
+    max-width: 120px !important;
 }
 /* @media (max-width: 1599px) {
   .main-header {
@@ -6882,6 +6892,7 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--cleenhearts-white, #fff);
   line-height: 1.4;
   margin-bottom: 19px;
+  margin-top: 100px;
 }
 @media (max-width: 767px) {
   .page-header__title {
