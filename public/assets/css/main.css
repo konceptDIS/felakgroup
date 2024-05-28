@@ -5011,9 +5011,12 @@ textarea {
   }
 }
 @media (max-width: 767px) {
-  .main-header__sidebar-btn {
-    display: none;
-  }
+    .main-header {
+        padding: 10px;
+    }
+    .main-header__sidebar-btn {
+        display: none;
+    }
 }
 .main-header__sidebar-btn span {
   font-size: 20px;
@@ -16802,6 +16805,9 @@ li:hover .sidebar__comments__icon::after {
   position: relative;
   z-index: 11;
 }
+.about-one .faq-one__image{
+    margin-top: -135px;
+}
 .faq-one__image {
   position: relative;
 }
@@ -16873,6 +16879,10 @@ li:hover .sidebar__comments__icon::after {
 @media (max-width: 575px) {
   .faq-two__image {
     gap: 25px;
+  }
+  .faq-one__image {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 430px) {
