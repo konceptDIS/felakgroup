@@ -9,6 +9,7 @@ use App\Models\Category;
 use App\Models\Image;
 use App\Models\Page;
 use App\Models\Setting;
+use Illuminate\Support\Facades\DB;
 
 class PostController extends Controller
 {

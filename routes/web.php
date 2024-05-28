@@ -66,7 +66,7 @@ Route::get('/contact', function () {
 
 Route::controller(PostController::class)->group(function () {
     Route::get('/b/{slug}', 'viewPost')->name('home.viewBlogPost');
-    Route::get('/blog', 'blog')->name('home.blog');
+    // Route::get('/blog', 'blog')->name('home.blog');
 });
 
 Route::group(['middleware' => 'auth'], function () {
