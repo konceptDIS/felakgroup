@@ -8,7 +8,7 @@
             <div class="container">
                 <h2 class="page-header__title">About us</h2>
                 <ul class="cleenhearts-breadcrumb list-unstyled">
-                    <li><i class="icon-home"></i> <a href="index.html">Home</a></li>
+                    <li><i class="icon-home"></i> <a href="{{route('home')}}">Home</a></li>
                     <li><span>About Us</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
             </div><!-- /.container -->
@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="row gutter-y-50">
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
-                        <div class="faq-one__image" style="margin-top: -135px;">
+                        <div class="faq-one__image">
                             <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
