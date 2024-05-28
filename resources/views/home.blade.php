@@ -28,7 +28,7 @@
                                     <span class="main-slider-one__title__text slider-text-2">Felak Concept Limited (FCL) is an expert consortium offering a range of world class consultancy, training and project management services to private and public sector clients.</span>
                                 </h2><!-- slider-title -->
                                 <div class="main-slider-one__btn">
-                                    <a href="become-a-volunteer.html" class="cleenhearts-btn">
+                                    <a href="{{route('subsidiaries')}}" class="cleenhearts-btn">
                                         <div class="cleenhearts-btn__icon-box">
                                             <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                         </div>
@@ -51,7 +51,7 @@
                                 </h2><!-- slider-title -->
 
                                 <div class="main-slider-one__btn">
-                                    <a href="become-a-volunteer.html" class="cleenhearts-btn">
+                                    <a href="{{route('subsidiaries')}}" class="cleenhearts-btn">
                                         <div class="cleenhearts-btn__icon-box">
                                             <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                         </div>
@@ -73,7 +73,7 @@
                                     <span class="main-slider-one__title__text slider-text-2">a dynamic organisation that delivers services in Media, Tourism, Entertainment and Consultancy. Our creative approach to implementation has placed us on a vantage position to meet our clients' specific needs leading to optimal satisfaction.</span>
                                 </h2><!-- slider-title -->
                                 <div class="main-slider-one__btn">
-                                    <a href="become-a-volunteer.html" class="cleenhearts-btn">
+                                    <a href="{{route('subsidiaries')}}" class="cleenhearts-btn">
                                         <div class="cleenhearts-btn__icon-box">
                                             <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                         </div>
@@ -225,7 +225,7 @@
             }'>
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="event-card-grid @@extraClassName">
-                            <a href="event-details-right.html" class="event-card-grid__image">
+                            <a href="{{route('blog')}}" class="event-card-grid__image">
                                 <img src="assets/images/events/event-4-1.jpg" alt="Let’s education for children get good life style with go us Our donation is hope">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
@@ -235,7 +235,7 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">Let’s education for children get good life style with go us Our donation is hope</a></h4><!-- /.event-card-grid__title -->
+                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">Let’s education for children get good life style with go us Our donation is hope</a></h4><!-- /.event-card-grid__title -->
                                 <ul class="event-card-grid__meta">
                                     <li>
                                         <h5 class="event-card-grid__meta__title">Organizer</h5>
@@ -251,7 +251,7 @@
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="event-card-grid event-card-grid--reverse">
-                            <a href="event-details-right.html" class="event-card-grid__image">
+                            <a href="{{route('blog')}}" class="event-card-grid__image">
                                 <img src="assets/images/events/event-4-2.jpg" alt="There are many variations of passages of available but majority have alteration">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
@@ -261,7 +261,7 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">There are many variations of passages of available but majority have alteration</a></h4><!-- /.event-card-grid__title -->
+                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">There are many variations of passages of available but majority have alteration</a></h4><!-- /.event-card-grid__title -->
                                 <ul class="event-card-grid__meta">
                                     <li>
                                         <h5 class="event-card-grid__meta__title">Organizer</h5>
@@ -277,7 +277,7 @@
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="event-card-grid @@extraClassName">
-                            <a href="event-details-right.html" class="event-card-grid__image">
+                            <a href="{{route('blog')}}" class="event-card-grid__image">
                                 <img src="assets/images/events/event-4-3.jpg" alt="If you are going to use a passage of Lorem Ipsum, you need to be sure there">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
@@ -287,7 +287,7 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">If you are going to use a passage of Lorem Ipsum, you need to be sure there</a></h4><!-- /.event-card-grid__title -->
+                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">If you are going to use a passage of Lorem Ipsum, you need to be sure there</a></h4><!-- /.event-card-grid__title -->
                                 <ul class="event-card-grid__meta">
                                     <li>
                                         <h5 class="event-card-grid__meta__title">Organizer</h5>
@@ -303,7 +303,7 @@
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="event-card-grid event-card-grid--reverse">
-                            <a href="event-details-right.html" class="event-card-grid__image">
+                            <a href="{{route('blog')}}" class="event-card-grid__image">
                                 <img src="assets/images/events/event-4-4.jpg" alt="injected humour, or randomised words which don’t look even use a passage">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
@@ -313,7 +313,7 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">injected humour, or randomised words which don’t look even use a passage</a></h4><!-- /.event-card-grid__title -->
+                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">injected humour, or randomised words which don’t look even use a passage</a></h4><!-- /.event-card-grid__title -->
                                 <ul class="event-card-grid__meta">
                                     <li>
                                         <h5 class="event-card-grid__meta__title">Organizer</h5>
@@ -329,7 +329,7 @@
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="event-card-grid @@extraClassName">
-                            <a href="event-details-right.html" class="event-card-grid__image">
+                            <a href="{{route('blog')}}" class="event-card-grid__image">
                                 <img src="assets/images/events/event-4-5.jpg" alt="The generated Lorem Ipsum is therefore always free from repetition">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
@@ -339,7 +339,7 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">The generated Lorem Ipsum is therefore always free from repetition</a></h4><!-- /.event-card-grid__title -->
+                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">The generated Lorem Ipsum is therefore always free from repetition</a></h4><!-- /.event-card-grid__title -->
                                 <ul class="event-card-grid__meta">
                                     <li>
                                         <h5 class="event-card-grid__meta__title">Organizer</h5>
@@ -355,7 +355,7 @@
                     </div><!-- /.item -->
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="event-card-grid event-card-grid--reverse">
-                            <a href="event-details-right.html" class="event-card-grid__image">
+                            <a href="{{route('blog')}}" class="event-card-grid__image">
                                 <img src="assets/images/events/event-4-6.jpg" alt="you need to be sure there isn’t anything embarrassing hidden in the middle">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
@@ -365,7 +365,7 @@
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="event-details-right.html">you need to be sure there isn’t anything embarrassing hidden in the middle</a></h4><!-- /.event-card-grid__title -->
+                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">you need to be sure there isn’t anything embarrassing hidden in the middle</a></h4><!-- /.event-card-grid__title -->
                                 <ul class="event-card-grid__meta">
                                     <li>
                                         <h5 class="event-card-grid__meta__title">Organizer</h5>
