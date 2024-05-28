@@ -54,7 +54,7 @@
                 <div class="main-header__inner">
                     <div class="main-header__logo">
                         <a href="index.html">
-                            <img src="/assets/images/felakgroup-logo-light.png" alt="felak group" width="130">
+                            <img class="felak-logo-img" src="" alt="felak group" width="130">
                         </a>
                         <button type="button" class="main-header__sidebar-btn sidebar-btn__toggler">
                             <span class="icon-grid"></span>
@@ -114,7 +114,7 @@
 
 
         @yield('content')
-        <footer class="main-footer background-white2">
+        <footer class="main-footer background-white2" style="margin-top: 100px;">
             <div class="main-footer__top">
                 <div class="container">
                     <div class="row gutter-y-30">
@@ -208,7 +208,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img src="assets/images/felakgroup-logo-light.png" width="130" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
