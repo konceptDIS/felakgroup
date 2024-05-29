@@ -19,7 +19,7 @@
                     <div class="col-lg-8">
                         <div class="blog-details">
                             <div class="blog-card blog-card-four @@extraClassName wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                                <a href="blog-details-right.html" class="blog-card__image">
+                                <a href="#" class="blog-card__image">
                                     <img src="assets/images/blog/blog-d-1-1.jpg" alt="There are many variations of passages of available but majority have alteration">
                                     <div class="blog-details__hall">
                                         <span>Hall no:</span>
@@ -37,7 +37,7 @@
                                                 <span class="icon-comment"></span>
                                                 2 Comments</a></li>
                                     </ul><!-- /.list-unstyled blog-card-four__meta -->
-                                    <h3 class="blog-card__title"><a href="blog-details-right.html">There are many variations of passages of available but majority have alteration</a></h3><!-- /.blog-card__title -->
+                                    <h3 class="blog-card__title"><a href="#">There are many variations of passages of available but majority have alteration</a></h3><!-- /.blog-card__title -->
                                     <p class="blog-card-four__text blog-card-four__text--one">Neque porro est qui dolorem ipsum quia quaed inventor veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><!-- /.blog-card-four__text -->
                                     <p class="blog-card-four__text blog-card-four__text--two">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit
                                         amet finibus eros.</p><!-- /.blog-card-four__text -->
@@ -75,9 +75,9 @@
                                 <div class="blog-details__tags">
                                     <h4 class="blog-details__meta__title">Tags:</h4><!-- /.blog-details__meta__title -->
                                     <div class="blog-details__tags__box">
-                                        <a href="blog-details-right.html">Charity</a>
-                                        <a href="blog-details-right.html">fundraising</a>
-                                        <a href="blog-details-right.html">kids</a>
+                                        <a href="#">Charity</a>
+                                        <a href="#">fundraising</a>
+                                        <a href="#">kids</a>
                                     </div><!-- /.blog-details__tag__box-->
                                 </div><!-- /.blog-details__tags -->
                                 <div class="blog-details__social">
@@ -131,7 +131,7 @@
                                                 <p class="sidebar__posts__meta"><a href="blog-list-left.html">
                                                         <span class="icon-user"></span>
                                                         By Admin</a></p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">There are many vario ns of passages of</a></h4><!-- /.sidebar__posts__title -->
+                                                <h4 class="sidebar__posts__title"><a href="#">There are many vario ns of passages of</a></h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
                                         <li class="sidebar__posts__item">
@@ -142,7 +142,7 @@
                                                 <p class="sidebar__posts__meta"><a href="blog-list.html">
                                                         <span class="icon-user"></span>
                                                         By Admin</a></p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">There are many vario ns of passages of</a></h4><!-- /.sidebar__posts__title -->
+                                                <h4 class="sidebar__posts__title"><a href="#">There are many vario ns of passages of</a></h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
                                         <li class="sidebar__posts__item">
@@ -150,10 +150,10 @@
                                                 <img src="assets/images/blog/lp-1-3.jpg" alt="Latest posts">
                                             </div><!-- /.sidebar__posts__image -->
                                             <div class="sidebar__posts__content">
-                                                <p class="sidebar__posts__meta"><a href="blog-list-right.html">
+                                                <p class="sidebar__posts__meta"><a href="#">
                                                         <span class="icon-user"></span>
                                                         By Admin</a></p><!-- /.sidebar__posts__date -->
-                                                <h4 class="sidebar__posts__title"><a href="blog-details-right.html">There are many vario ns of passages of</a></h4><!-- /.sidebar__posts__title -->
+                                                <h4 class="sidebar__posts__title"><a href="#">There are many vario ns of passages of</a></h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
                                     </ul><!-- /.sidebar__posts list-unstyled -->
@@ -161,24 +161,24 @@
                                 <div class="sidebar__categories-wrapper sidebar__single">
                                     <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
                                     <ul class="sidebar__categories list-unstyled">
-                                        <li><a href="blog-details-right.html"><span>Charity</span> <span>(4)</span></a></li>
-                                        <li><a href="blog-details-right.html"><span>fundraising</span> <span>(2)</span></a></li>
-                                        <li><a href="blog-details-right.html"><span>donations</span> <span>(6)</span></a></li>
-                                        <li><a href="blog-details-right.html"><span>kids education</span> <span>(9)</span></a></li>
-                                        <li><a href="blog-details-right.html"><span>save water</span> <span>(10)</span></a></li>
+                                        <li><a href="#"><span>Politics</span> <span>(0)</span></a></li>
+                                        <li><a href="#"><span>News</span> <span>(0)</span></a></li>
+                                        <li><a href="#"><span>Entertainment</span> <span>(0)</span></a></li>
+                                        <li><a href="#"><span>Technology</span> <span>(0)</span></a></li>
+                                        <li><a href="#"><span>Skills</span> <span>(0)</span></a></li>
                                     </ul><!-- /.sidebar__categories list-unstyled -->
                                 </div><!-- /.sidebar__categories-wrapper sidebar__single -->
                                 <div class="sidebar__tags-wrapper sidebar__single">
                                     <h4 class="sidebar__title">Tags</h4><!-- /.sidebar__title -->
                                     <div class="sidebar__tags">
-                                        <a href="blog-details-right.html">Charity</a>
-                                        <a href="blog-details-right.html">fundraising</a>
-                                        <a href="blog-details-right.html">donations</a>
-                                        <a href="blog-details-right.html">kids education</a>
-                                        <a href="blog-details-right.html">save water</a>
-                                        <a href="blog-details-right.html">kids</a>
-                                        <a href="blog-details-right.html">animal save</a>
-                                        <a href="blog-details-right.html">NGO charity</a>
+                                        <a href="#">Felak Concept</a>
+                                        <a href="#">Altex Engineering</a>
+                                        <a href="#">Ocean Gate</a>
+                                        <a href="#">KDIS</a>
+                                        <a href="#">Ay-dol</a>
+                                        <a href="#">SCSC</a>
+                                        <a href="#">Wishwich</a>
+                                        <a href="#">SEF</a>
                                     </div><!-- /.sidebar__tags -->
                                 </div><!-- /.sidebar__tags-wrapper sidebar__single -->
 
