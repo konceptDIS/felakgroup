@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout', [$page = 'About'])
 
 @section('content')
 <div class="page-wrapper">
@@ -73,7 +73,7 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="1200" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="20" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
                                 <h5 class="about-info__title">years in service</h5>
@@ -87,7 +87,7 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="7200" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="500" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
                                 <h5 class="about-info__title">Active Staff</h5>
@@ -101,10 +101,10 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="15900" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="78" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
-                                <h5 class="about-info__title">work hours</h5>
+                                <h5 class="about-info__title">Projects Completed</h5>
                             </div><!-- /.about-info__content -->
                         </div><!-- /.about-info__item -->
                     </div><!-- /.col-xl-3 col-lg-4 col-md-6 -->

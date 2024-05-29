@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout', [$page = 'Blog'])
 <div class="page-wrapper">
 <section class="page-header @@extraClassName">
             <div class="page-header__bg" style="background-image: url('assets/images/backgrounds/page-header-bg-1-1.jpg');"></div>
@@ -104,9 +104,9 @@
                             </div><!-- /.blog-details__meta -->
                         </div><!-- /.blog-details -->
 
-                        
 
-                        
+
+
                     </div><!-- /.col-lg-8 -->
                     <div class="col-lg-4">
                         <div class="sidebar">
@@ -181,7 +181,7 @@
                                         <a href="blog-details-right.html">NGO charity</a>
                                     </div><!-- /.sidebar__tags -->
                                 </div><!-- /.sidebar__tags-wrapper sidebar__single -->
-                                
+
                             </aside><!-- /.widget-area -->
                         </div><!-- /.sidebar -->
                     </div><!-- /.col-lg-4 -->

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout', [$page = 'Contact'])
 
 @section('content')
 <div class="page-wrapper">
@@ -44,7 +44,7 @@
                                         <a href="tel:+234 (0) 810 388 0336" class="contact-one__info__text contact-one__info__text--link">+234 (0) 810 388 0336</a>,
                                         <a href="tel:+234 (0) 905 320 0000" class="contact-one__info__text contact-one__info__text--link">+234 (0) 905 320 0000</a>,
                                         <a href="tel:+234 (0) 909 996 6648" class="contact-one__info__text contact-one__info__text--link">+234 (0) 909 996 6648</a>
-                                        
+
                                     </div><!-- /.contact-one__info__content -->
                                 </div><!-- /.contact-one__info__item -->
                                 <div class="contact-one__info__item">
@@ -129,8 +129,8 @@
                                 <h3 class="sec-title__title">We Are Serving Everywhere</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="worldwide-one__text">Our global presence ensures you're supported, no matter your corner of the world. We're a diverse company, offering subsidies across oil & gas, technology, hospitality, engineering, and security.  Experience the power of a connected world – explore how we can empower your needs.</p><!-- /.worldwide-one__text -->
-                            
-                            
+
+
                         </div>
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6">
@@ -139,61 +139,61 @@
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--two">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--three">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--four">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                               
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--five">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--six">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--seven">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--eight">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--nine">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                         </div><!-- /.worldwide-one__right -->
                     </div><!-- /.col-xl-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-            
+
         </section><!-- /.worldwide-one section-space -->
 </div>
 @endsection

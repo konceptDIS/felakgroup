@@ -63,6 +63,8 @@
 # Subscribe
 # Boxed Home
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --cleenhearts-font: "DM Sans", sans-serif;
   --cleenhearts-heading-font: "Quicksand", sans-serif;
@@ -8566,7 +8568,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .slider-text-2{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0.5px;
     margin-top: 35px;
     width: 700px;
@@ -16815,6 +16817,7 @@ li:hover .sidebar__comments__icon::after {
   border-radius: 20px;
   width: 100%;
   display: block;
+  box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.44);
 }
 .faq-one__content {
   margin-top: 1px;

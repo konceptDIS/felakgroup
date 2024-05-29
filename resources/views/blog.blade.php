@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout', [$page = 'Blog'])
 
 @section('content')
 <div class="page-wrapper">

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout', [$page = 'Home'])
 
 @section('content')
 <div class="page-wrapper">
@@ -47,7 +47,7 @@
 
                                 <h2 class="main-slider-one__title">
                                     <span class="main-slider-one__title__text">Koncept Digital Integrated Services.</span><br>
-                                    <span class="main-slider-one__title__text slider-text-2">We provide innovative and scalable business quality engineering solutions that protect your brand through end-to-end value demonstration with laser focus on customer experience and release velocity. We have years of innovation and excellence.</span>
+                                    <span class="main-slider-one__title__text slider-text-2">A technology company that innovative and scalable business quality engineering solutions that protect your brand through end-to-end value demonstration with laser focus on customer experience and release velocity. We have years of innovation and excellence.</span>
                                 </h2><!-- slider-title -->
 
                                 <div class="main-slider-one__btn">
@@ -69,7 +69,7 @@
                             <div class="main-slider-one__content">
 
                                 <h2 class="main-slider-one__title">
-                                    <span class="main-slider-one__title__text">WishWish Koncept.</span><br>
+                                    <span class="main-slider-one__title__text">WishWich Koncept.</span><br>
                                     <span class="main-slider-one__title__text slider-text-2">a dynamic organisation that delivers services in Media, Tourism, Entertainment and Consultancy. Our creative approach to implementation has placed us on a vantage position to meet our clients' specific needs leading to optimal satisfaction.</span>
                                 </h2><!-- slider-title -->
                                 <div class="main-slider-one__btn">
