@@ -192,193 +192,66 @@
             <div class="container">
                 <h6 class="sec-title__tagline @@extraClassName" style="margin-bottom: 30px">What's New</h6>
                 <div class="tevents-page__carousel cleenhearts-owl__carousel cleenhearts-owl__carousel--basic-nav owl-theme owl-carousel" data-owl-options='{
-            "items": 2,
-            "margin": 30,
-            "smartSpeed": 700,
-            "loop":true,
-            "autoplay": 6000,
-            "nav":false,
-            "dots":true,
-            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
-            "responsive":{
-                "0":{
-                    "items": 1,
-                    "margin": 20
-                },
-                "575":{
-                    "items": 1,
-                    "margin": 30
-                },
-                "768":{
-                    "items": 1,
-                    "margin": 30
-                },
-                "992":{
-                    "items": 2,
-                    "margin": 30
-                },
-                "1200":{
-                    "items": 2,
-                    "margin": 30
+                "items": 2,
+                "margin": 30,
+                "smartSpeed": 700,
+                "loop":true,
+                "autoplay": 6000,
+                "nav":false,
+                "dots":true,
+                "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+                "responsive":{
+                    "0":{
+                        "items": 1,
+                        "margin": 20
+                    },
+                    "575":{
+                        "items": 1,
+                        "margin": 30
+                    },
+                    "768":{
+                        "items": 1,
+                        "margin": 30
+                    },
+                    "992":{
+                        "items": 2,
+                        "margin": 30
+                    },
+                    "1200":{
+                        "items": 2,
+                        "margin": 30
+                    }
                 }
-            }
-            }'>
+                }'>
+                @foreach ($posts as $post)
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="event-card-grid @@extraClassName">
-                            <a href="{{route('blog')}}" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-1.jpg" alt="Let’s education for children get good life style with go us Our donation is hope">
+                            <a href="/b/{{$post->link}}" class="event-card-grid__image">
+                                <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}">
                                 <div class="event-card-grid__date-wrapper">
                                     <div class="event-card-grid__time">
-                                        <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
+                                        {{$post->category->title}}
                                     </div><!-- /.event-card-grid__time -->
-                                    <div class="event-card-grid__date">03 Sep</div><!-- /.event-card-grid__date -->
+                                    <div class="event-card-grid__date">{{$post->created_at->format('j M')}}</div><!-- /.event-card-grid__date -->
                                 </div>
                             </a><!-- /.event-card-grid__image -->
                             <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">Let’s education for children get good life style with go us Our donation is hope</a></h4><!-- /.event-card-grid__title -->
+                                <h4 class="event-card-grid__title"><a href="/b/{{$post->link}}">{{$post->title}}</a></h4><!-- /.event-card-grid__title -->
+                                <p class="two-lines">{{$post->excerpt}}</p>
                                 <ul class="event-card-grid__meta">
                                     <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
+                                        <h5 class="event-card-grid__meta__title">Author</h5>
+                                        {{$post->user->first_name}} {{$post->user->last_name}}
                                     </li>
                                     <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
+                                        <h5 class="event-card-grid__meta__title">Posted</h5>
+                                        {{$post->created_at->diffForHumans()}}
                                     </li>
                                 </ul><!-- /.event-card-grid__meta -->
                             </div><!-- /.event-card-grid__content -->
                         </div><!-- /.event-card-grid -->
                     </div><!-- /.item -->
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                        <div class="event-card-grid event-card-grid--reverse">
-                            <a href="{{route('blog')}}" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-2.jpg" alt="There are many variations of passages of available but majority have alteration">
-                                <div class="event-card-grid__date-wrapper">
-                                    <div class="event-card-grid__time">
-                                        <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
-                                    </div><!-- /.event-card-grid__time -->
-                                    <div class="event-card-grid__date">03 Sep</div><!-- /.event-card-grid__date -->
-                                </div>
-                            </a><!-- /.event-card-grid__image -->
-                            <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">There are many variations of passages of available but majority have alteration</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
-                            </div><!-- /.event-card-grid__content -->
-                        </div><!-- /.event-card-grid -->
-                    </div><!-- /.item -->
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-                        <div class="event-card-grid @@extraClassName">
-                            <a href="{{route('blog')}}" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-3.jpg" alt="If you are going to use a passage of Lorem Ipsum, you need to be sure there">
-                                <div class="event-card-grid__date-wrapper">
-                                    <div class="event-card-grid__time">
-                                        <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
-                                    </div><!-- /.event-card-grid__time -->
-                                    <div class="event-card-grid__date">03 Sep</div><!-- /.event-card-grid__date -->
-                                </div>
-                            </a><!-- /.event-card-grid__image -->
-                            <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">If you are going to use a passage of Lorem Ipsum, you need to be sure there</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
-                            </div><!-- /.event-card-grid__content -->
-                        </div><!-- /.event-card-grid -->
-                    </div><!-- /.item -->
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                        <div class="event-card-grid event-card-grid--reverse">
-                            <a href="{{route('blog')}}" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-4.jpg" alt="injected humour, or randomised words which don’t look even use a passage">
-                                <div class="event-card-grid__date-wrapper">
-                                    <div class="event-card-grid__time">
-                                        <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
-                                    </div><!-- /.event-card-grid__time -->
-                                    <div class="event-card-grid__date">03 Sep</div><!-- /.event-card-grid__date -->
-                                </div>
-                            </a><!-- /.event-card-grid__image -->
-                            <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">injected humour, or randomised words which don’t look even use a passage</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
-                            </div><!-- /.event-card-grid__content -->
-                        </div><!-- /.event-card-grid -->
-                    </div><!-- /.item -->
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-                        <div class="event-card-grid @@extraClassName">
-                            <a href="{{route('blog')}}" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-5.jpg" alt="The generated Lorem Ipsum is therefore always free from repetition">
-                                <div class="event-card-grid__date-wrapper">
-                                    <div class="event-card-grid__time">
-                                        <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
-                                    </div><!-- /.event-card-grid__time -->
-                                    <div class="event-card-grid__date">03 Sep</div><!-- /.event-card-grid__date -->
-                                </div>
-                            </a><!-- /.event-card-grid__image -->
-                            <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">The generated Lorem Ipsum is therefore always free from repetition</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
-                            </div><!-- /.event-card-grid__content -->
-                        </div><!-- /.event-card-grid -->
-                    </div><!-- /.item -->
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                        <div class="event-card-grid event-card-grid--reverse">
-                            <a href="{{route('blog')}}" class="event-card-grid__image">
-                                <img src="assets/images/events/event-4-6.jpg" alt="you need to be sure there isn’t anything embarrassing hidden in the middle">
-                                <div class="event-card-grid__date-wrapper">
-                                    <div class="event-card-grid__time">
-                                        <span class="event-card-grid__time__icon fa fa-clock"></span>10:00 aM - 2.00 PM
-                                    </div><!-- /.event-card-grid__time -->
-                                    <div class="event-card-grid__date">03 Sep</div><!-- /.event-card-grid__date -->
-                                </div>
-                            </a><!-- /.event-card-grid__image -->
-                            <div class="event-card-grid__content">
-                                <h4 class="event-card-grid__title"><a href="{{route('blog')}}">you need to be sure there isn’t anything embarrassing hidden in the middle</a></h4><!-- /.event-card-grid__title -->
-                                <ul class="event-card-grid__meta">
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title">Organizer</h5>
-                                        Ashton Porter
-                                    </li>
-                                    <li>
-                                        <h5 class="event-card-grid__meta__title"><span class="icon-location"></span> Vanue</h5>
-                                        350 5th AveNew York, NY 10118
-                                    </li>
-                                </ul><!-- /.event-card-grid__meta -->
-                            </div><!-- /.event-card-grid__content -->
-                        </div><!-- /.event-card-grid -->
-                    </div><!-- /.item -->
+                @endforeach
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.events-page section-space -->

@@ -9,6 +9,7 @@ use App\Http\Controllers\SettingController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SliderController;
 use App\Http\Controllers\ImageController;
+use App\Http\Controllers\WebPageController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -22,50 +23,15 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-}) ->name('index');
-
-Route::get('/about', function () {
-    return view('about');
-}) ->name('about');
-
-Route::get('/team', function () {
-    return view('team');
-}) ->name('team');
-
-Route::get('/subsidiaries', function () {
-    return view('subsidiaries');
-}) ->name('subsidiaries');
-
-Route::get('/governance', function () {
-    return view('governance');
-}) ->name('governance');
-
-Route::get('/business', function () {
-    return view('business');
-}) ->name('business');
-
-Route::get('/relations', function () {
-    return view('relations');
-}) ->name('relations');
-
-Route::get('/hse', function () {
-    return view('hse');
-}) ->name('hse');
-
-
-Route::get('/csr', function () {
-    return view('csr');
-}) ->name('csr');
-
-Route::get('/blog', function () {
-    return view('blog');
-}) ->name('blog');
-
-Route::get('/contact', function () {
-    return view('contact');
-}) ->name('contact');
+Route::controller(WebPageController::class)->group(function () {
+    Route::get('/', 'home')->name('index');
+    Route::get('/about', 'about')->name('about');
+    Route::get('/team', 'team')->name('team');
+    Route::get('/subsidiaries', 'subsidiaries')->name('subsidiaries');
+    Route::get('/csr', 'csr')->name('csr');
+    Route::get('/blog', 'blog')->name('blog');
+    Route::get('/contact', 'contact')->name('contact');
+});
 
 Route::controller(PostController::class)->group(function () {
     Route::get('/b/{slug}', 'viewPost')->name('home.viewBlogPost');

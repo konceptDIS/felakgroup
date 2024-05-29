@@ -216,6 +216,7 @@ class PostController extends Controller
 
         // Check if the post exists
         $post = Post::where('link', $link)->first();
+        $categories = Category::latest()->get();
 
         if (!$post) {
             abort(404);
@@ -232,15 +233,18 @@ class PostController extends Controller
         $nextPost = Post::where('id', '>', $post->id)->orderBy('id')->first();
 
         $details = Setting::first();
+        $tags = explode(',', $post->tags);
 
-        return view('view-post', [
+        return view('blog-detail', [
             'post' => $post,
             'posts' => $posts,
             'latest' => $latest,
+            'categories' => $categories,
             'previousPost' => $previousPost,
             'nextPost' => $nextPost,
             'pages' => $pages,
-            'details' => $details
+            'details' => $details,
+            'tags' => $tags
         ]);
     }
 

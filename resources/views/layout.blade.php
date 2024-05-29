@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home || Felak Concept Group </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/felakgroup.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/felakgroup.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/felakgroup.png" />
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="//assets/images/felakgroup.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="//assets/images/felakgroup.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="//assets/images/felakgroup.png" />
+    <link rel="manifest" href="//assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Felak Group" />
 
     <!-- fonts -->
@@ -45,7 +45,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(/assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url(//assets/images/loader.png);"></div>
     </div>
     <!-- /.preloader -->
 <div class="page-wrapper">
@@ -108,7 +108,7 @@
                         <div class="col-md-12 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                             <div class="footer-widget footer-widget--about">
                                 <a href="index.html" class="footer-widget__logo">
-                                    <img src="assets/images/logo-dark.png" width="159" alt="Cleenhearts HTML Template">
+                                    <img src="//assets/images/logo-dark.png" width="159" alt="Cleenhearts HTML Template">
                                 </a>
                                 <p class="footer-widget__about-text">At Felak Group, our subsidiaries are united by excellence and integrity. Spanning diverse sectors, we strive to make a positive impact across the globe.</p>
                             </div><!-- /.footer-widget -->
@@ -147,7 +147,7 @@
                                 <div class="footer-widget__news">
                                     <div class="footer-widget__news__single">
                                         <div class="footer-widget__news__image">
-                                            <img src="assets/images/blog/footer-widget-blog-1-1.png" alt="blog">
+                                            <img src="/assets/images/blog/footer-widget-blog-1-1.png" alt="blog">
                                         </div><!-- /.footer-widget__news__image -->
                                         <div class="footer-widget__news__content">
                                             <h3 class="footer-widget__news__title"><a href="blog-details-right.html">There are many varia of passages of</a></h3><!-- /.footer-widget__news__title -->
@@ -158,7 +158,7 @@
                                     </div><!-- /.footer-widget__news__single -->
                                     <div class="footer-widget__news__single">
                                         <div class="footer-widget__news__image">
-                                            <img src="assets/images/blog/footer-widget-blog-1-2.png" alt="blog">
+                                            <img src="/assets/images/blog/footer-widget-blog-1-2.png" alt="blog">
                                         </div><!-- /.footer-widget__news__image -->
                                         <div class="footer-widget__news__content">
                                             <h3 class="footer-widget__news__title"><a href="blog-details-right.html">Mauris gravida lacus metus, ac sagittis</a></h3><!-- /.footer-widget__news__title -->
@@ -174,7 +174,7 @@
                 </div><!-- /.container -->
             </div><!-- /.main-footer__top -->
             <div class="main-footer__bottom">
-                <div class="main-footer__bottom__bg" style="background: url('assets/images/backgrounds/footer-bottom-bg-1-2.png');"></div><!-- /.main-footer__bottom-bg -->
+                <div class="main-footer__bottom__bg" style="background: url('/assets/images/backgrounds/footer-bottom-bg-1-2.png');"></div><!-- /.main-footer__bottom-bg -->
                 <div class="container">
                     <div class="main-footer__bottom__inner">
                         <p class="main-footer__copyright">
@@ -195,7 +195,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/felakgroup-logo-light.png" width="130" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img src="/assets/images/felakgroup-logo-light.png" width="130" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
