@@ -63,38 +63,25 @@
                     <div class="main-header__right">
                         <nav class="main-header__nav main-menu">
                             <ul class="main-menu__list">
-
-
-                                <li class="megamenu">
-                                    <a href="{{route('home')}}">Home</a>
+                                <li class="{{$page == 'Home' ? 'current' : ''}}">
+                                    <a href="{{route('index')}}">Home</a>
                                 </li>
-
-
-                                <li>
+                                <li class="{{$page == 'About' ? 'current' : ''}}">
                                     <a href="{{route('about')}}">About Us</a>
                                 </li>
-
-                                <li>
+                                <li class="{{$page == 'Subsidiaries' ? 'current' : ''}}">
                                     <a href="{{route('subsidiaries')}}">Subsidiaries</a>
                                 </li>
-
-                                <li>
+                                <li class="{{$page == 'Team' ? 'current' : ''}}">
                                     <a href="{{route('team')}}">Team</a>
                                 </li>
-
-                                <li class="dropdown">
-                                    <a href="#">Investors Ties</a>
-
-                                </li>
-
-                                <li>
+                                <li class="{{$page == 'CSR' ? 'current' : ''}}">
                                     <a href="{{route('csr')}}">CSR</a>
                                 </li>
-
-                                <li>
+                                <li class="{{$page == 'Blog' ? 'current' : ''}}">
                                     <a href="{{route('blog')}}">Blog</a>
                                 </li>
-                                <li>
+                                <li class="{{$page == 'Contact' ? 'current' : ''}}">
                                     <a href="{{route('contact')}}">Contact</a>
                                 </li>
                             </ul>

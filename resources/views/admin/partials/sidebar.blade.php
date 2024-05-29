@@ -2,38 +2,42 @@
 <aside class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
         <div>
-            <img src="{{asset('assets/images/aedc-logo.png')}}" class="logo-icon" alt="logo icon" style="width: 60px;">
+            <img src="{{asset('assets/images/felakgroup-logo.png')}}" class="logo-icon" alt="logo icon" style="width: 60px;">
         </div>
         <div class="toggle-icon ms-auto"> <i class="bi bi-list"></i>
         </div>
     </div>
     <!--navigation-->
     <ul class="metismenu" id="menu">
-        <li>
-            <a href="/dashboard">
+        <li class="mm-active">
+            <a href="{{route('admin.dashboard')}}">
                 <div class="parent-icon"><i class="bi bi-house-fill"></i>
                 </div>
                 <div class="menu-title">Dashboard</div>
             </a>
         </li>
-        <li>
-            <a href="{{route('admin.createCSV')}}">
-                <div class="parent-icon"><i class="bi bi-file-fill"></i>
-                </div>
-                <div class="menu-title">Upload Data</div>
-            </a>
-        </li>
-        <li class="menu-label">Reports</li>
+        <li class="menu-label">Site Content</li>
         <li>
             <a class="has-arrow" href="javascript:;">
                 <div class="parent-icon"><i class="bi bi-grid-fill"></i>
                 </div>
-                <div class="menu-title">Tasks</div>
+                <div class="menu-title">Settings</div>
             </a>
             <ul>
-                <li> <a href="/get-tasks?filter=successful"><i class="bi bi-circle"></i>Successful</a>
+                <li> <a href="#"><i class="bi bi-circle"></i>Basic Info</a></li>
+                <li> <a href="#"><i class="bi bi-circle"></i>Users</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="has-arrow" href="javascript:;">
+                <div class="parent-icon"><i class="bi bi-grid-fill"></i>
+                </div>
+                <div class="menu-title">Blog</div>
+            </a>
+            <ul>
+                <li> <a href="{{route('admin.posts')}}"><i class="bi bi-circle"></i>Posts</a>
                 </li>
-                <li> <a href="/get-tasks?filter=failed"><i class="bi bi-circle"></i>Failed</a>
+                <li> <a href="{{route('admin.categories')}}"><i class="bi bi-circle"></i>Categories</a>
                 </li>
             </ul>
         </li>
@@ -42,20 +46,32 @@
 
                 <div class="parent-icon"><i class="bi bi-body-text"></i>
                 </div>
-                <div class="menu-title">Access/AEDC KCT</div>
+                <div class="menu-title">Media</div>
             </a>
             <ul>
-                <li> <a href="/get-kcts?filter=treated"><i class="bi bi-circle"></i>Treated</a>
-                </li>
-                <li> <a href="/get-kcts?filter=untreated"><i class="bi bi-circle"></i>Untreated</a>
+                <li> <a href="{{route('admin.images')}}"><i class="bi bi-circle"></i>Add Media</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href="{{route('get.customer')}}">
+            <a href="#">
                 <div class="parent-icon"><i class="bi bi-person-lines-fill"></i>
                 </div>
-                <div class="menu-title">Captured Customers</div>
+                <div class="menu-title">Carousels</div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="parent-icon"><i class="bi bi-person-lines-fill"></i>
+                </div>
+                <div class="menu-title">Subsidiaries</div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="parent-icon"><i class="bi bi-person-lines-fill"></i>
+                </div>
+                <div class="menu-title">Team</div>
             </a>
         </li>
     </ul>

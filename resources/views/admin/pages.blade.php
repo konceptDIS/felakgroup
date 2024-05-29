@@ -1,11 +1,12 @@
-@extends('layouts.dashboard')
+@extends('admin.layouts.app')
 
 @section('content')
 
+<main class="page-content">
     <!-- Start Breadcrumbbar -->
     <div class="breadcrumbbar">
-        <div class="row align-items-center">
-            <div class="col-md-8 col-lg-8">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+            <div class="">
                 <div class="breadcrumb-list">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{route('admin.home')}}">Admin</a></li>
@@ -13,9 +14,9 @@
                     </ol>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4">
+            <div class="">
                 <div class="widgetbar">
-                    <button class="btn btn-primary" data-toggle="modal" data-target=".page-modal"><i class="ri-add-line align-middle mr-2"></i>ADD</button>
+                    <button class="btn btn-primary" data-toggle="modal" data-target=".page-modal"><i class="ri-add-line align-middle mr-2"></i>Add Images</button>
                 </div>
             </div>
         </div>
@@ -147,8 +148,7 @@
             </div>
         </div>
     </div>
-
-</div>
+</main>
 <!-- End Contentbar -->
 @push('scripts')
     <script>

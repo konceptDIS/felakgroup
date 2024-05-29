@@ -38,7 +38,7 @@ class ImageController extends Controller
     public function index()
     {
         $images = Image::paginate(12);
-        return view('admin.images', compact('images'))->with('title', 'Upload Images');
+        return view('admin.images', compact('images'));
     }
 
     /**

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout', [$page = 'Team'])
 
 @section('content')
 <div class="page-wrapper">
@@ -19,7 +19,7 @@
                 <div class="row gutter-y-30">
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                         <div class="volunteer-card @@extraClassName">
-                           
+
                         </div><!-- /.volunteer-card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
@@ -58,12 +58,12 @@
                     </div><!-- /.col-md-6 col-lg-4 -->
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
                         <div class="volunteer-card @@extraClassName">
-                            
+
                         </div><!-- /.volunteer-card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
-                   
-                    
-                    
+
+
+
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.volunteer-page section-space -->

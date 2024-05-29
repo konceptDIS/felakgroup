@@ -6,19 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="{{asset('assets/favicon.ico')}}" type="image/png" />
+    <link rel="icon" href="{{asset('/dashboard/assets/favicon.ico')}}" type="image/png" />
     <!-- Bootstrap CSS -->
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/bootstrap-extended.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/css/icons.css')}}" rel="stylesheet">
+    <link href="{{asset('/dashboard/assets/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('/dashboard/assets/css/bootstrap-extended.css')}}" rel="stylesheet" />
+    <link href="{{asset('/dashboard/assets/css/style.css')}}" rel="stylesheet" />
+    <link href="{{asset('/dashboard/assets/css/icons.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <!-- loader-->
-    <link href="{{asset('assets/css/pace.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('/dashboard/assets/css/pace.min.css')}}" rel="stylesheet" />
 
-    <title>AEDC - KCT Dashboard</title>
+    <title>KDIS | CMS</title>
 </head>
 
 <body class="bg-login">
@@ -34,13 +34,13 @@
                         <div class="card shadow rounded-5 overflow-hidden">
                             <div class="card-body p-4 p-sm-5">
                                 <h5 class="card-title">Sign In</h5>
-                                @if (Session::has('message'))
+                                @if (Session::has('error'))
 
                                 <div class="alert alert-danger alert-dismissible show" role="alert">
-                                    <strong>{{ Session::get('message') }}</strong>
-                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <strong>{{ Session::get('error') }}</strong>
+                                    <a href="javascript:void(0);" role="button" class="close" data-dismiss="alert" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
-                                    </button>
+                                    </a>
                                 </div>
 
                                 @endif
@@ -54,7 +54,7 @@
                                                     class="position-absolute top-50 translate-middle-y search-icon px-3">
                                                     <i class="bi bi-envelope-fill"></i>
                                                 </div>
-                                                <input type="text" name="username" class="form-control radius-30 ps-5"
+                                                <input type="text" name="email" class="form-control radius-30 ps-5"
                                                     id="inputEmailAddress" placeholder="Email Address" required>
                                             </div>
                                         </div>
@@ -102,8 +102,8 @@
 
 
     <!--plugins-->
-    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
-    <script src="{{asset('assets/js/pace.min.js')}}"></script>
+    <script src="{{asset('/dashboard/assets/js/jquery.min.js')}}"></script>
+    <script src="{{asset('/dashboard/assets/js/pace.min.js')}}"></script>
 
 
 </body>

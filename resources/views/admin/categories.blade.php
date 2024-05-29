@@ -1,26 +1,27 @@
-@extends('layouts.dashboard')
+@extends('admin.layouts.app')
 
 @section('content')
+<main class="page-content">
     <!-- Start Breadcrumbbar -->
     <div class="breadcrumbbar">
-        <div class="row align-items-center">
-            <div class="col-md-8 col-lg-8">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+            <div class="">
                 <div class="breadcrumb-list">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="{{route('admin.home')}}">Admin</a></li>
+                        <li class="breadcrumb-item"><a href="{{route('admin.dashboard')}}">Admin</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Blog</li>
                         <li class="breadcrumb-item active" aria-current="page">Categories</li>
                     </ol>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-4">
+            <div class="">
                 <div class="widgetbar">
-                    <button class="btn btn-primary" data-toggle="modal" data-target=".category-modal"><i class="ri-add-line align-middle mr-2"></i>ADD</button>
+                    <button class="btn btn-primary" onclick="$('#category-modal').modal('show');"><i class="ri-add-line align-middle mr-2"></i>New Category</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Breadcrumbbar -->
-    @include('partials.notifications')
     <!-- Start Contentbar -->
     <div class="contentbar">
         <!-- Start row -->
@@ -33,7 +34,7 @@
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table id="datatable-buttons" class="table table-striped table-bordered">
+                            <table id="datatable-buttons" class="datatable-kdis table table-striped table-bordered">
                                 <thead>
                                 <tr>
                                     <th data-breakpoints="xs">#</th>
@@ -53,10 +54,16 @@
                                             <td>{{$cat['description']}}</td>
                                             <td>{{$cat['created_at']}}</td>
                                             <td>{{$cat['updated_at']}}</td>
-                                            <td><div class="btn-group" role="group" aria-label="action buttons">
-                                                <button type="button" class="btn btn-success" data-toggle="modal" data-target=".edit-category-modal" onclick="editCategory({{$cat['id']}})"><i class="fa fa-pencil"></i></button>
-                                                <button type="button" class="btn btn-danger"  onclick="deleteCategory({{$cat['id']}})"><i class="fa fa-trash"></i></button>
-                                              </div></td>
+                                            <td>
+                                                <div class="btn-group btn-group-sm" role="group" aria-label="action buttons">
+                                                    <button type="button" class="btn ps-1 btn-primary" onclick="editCategory({{$cat['id']}})">
+                                                        <i class="bi bi-pen-fill"></i>
+                                                    </button>
+                                                    <button type="button" class="btn ps-1 btn-danger"  onclick="deleteCategory({{$cat['id']}})">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
                                         </tr>
                                         @endforeach
                                     @endif
@@ -81,13 +88,13 @@
         <!--End row -->
     </div>
     <!-- End Contentbar -->
-    <div class="modal fade category-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="category-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleLargeModalLabel">Add Category</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
@@ -110,12 +117,12 @@
         </div>
     </div>
 
-    <div class="modal fade edit-category-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="edit-category-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="editModalTitle">Edit Category</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -139,51 +146,56 @@
             </div>
         </div>
     </div>
+</main>
 
-    <script>
-        function editCategory(id){
-            var url = '/admin/get-category/' + id;
-            $.get(url, function(response, status){
-                if(response.status == 'success'){
-                    $("#category-title").val(response.data.title);
-                    $("#category-description").val(response.data.description);
-                    $("#category-id").val(response.data.id);
-                }else{
-                    Swal.fire("error", "Something went wrong. User was not blocked.");
-                }
-            });
-        }
-        function deleteCategory(id){
-            Swal.fire({
-                title: "Do you want to delete this item?",
-                showCancelButton: true,
-                confirmButtonText: "Yes"
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    var url = '/admin/delete-category/' + id;
-                    $.ajax({
-                        url: url,
-                        type: 'GET',
-                        headers: {
-                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                        },
-                        success: function (response) {
-                            response = JSON.parse(response);
-                            if (response.status == 'success') {
-                                Swal.fire("info", "Category deleted", "success");
-                                location.reload();
-                            } else {
-                                Swal.fire("Oooops!", "The server was unable to handle your request at the moment!", "error");
-                            }
-                        },
-                        error: function (xhr) {
-                            console.error('Error:', xhr.responseText);
-                            Swal.fire("Oooops!", "The server encountered an error while processing your request!", "error");
-                        }
-                    });
 
-                }
-            });
-        }
-    </script>
 @endsection
+
+@push('js')
+<script>
+    function editCategory(id){
+        var url = '/admin/get-category/' + id;
+        $.get(url, function(response, status){
+            if(response.status == 'success'){
+                $("#category-title").val(response.data.title);
+                $("#category-description").val(response.data.description);
+                $("#category-id").val(response.data.id);
+            }else{
+                Swal.fire("error", "Something went wrong. User was not blocked.");
+            }
+        });
+    }
+    function deleteCategory(id){
+        Swal.fire({
+            title: "Do you want to delete this item?",
+            showCancelButton: true,
+            confirmButtonText: "Yes"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                var url = '/admin/delete-category/' + id;
+                $.ajax({
+                    url: url,
+                    type: 'GET',
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    success: function (response) {
+                        response = JSON.parse(response);
+                        if (response.status == 'success') {
+                            Swal.fire("info", "Category deleted", "success");
+                            location.reload();
+                        } else {
+                            Swal.fire("Oooops!", "The server was unable to handle your request at the moment!", "error");
+                        }
+                    },
+                    error: function (xhr) {
+                        console.error('Error:', xhr.responseText);
+                        Swal.fire("Oooops!", "The server encountered an error while processing your request!", "error");
+                    }
+                });
+
+            }
+        });
+    }
+</script>
+@endpush

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CategoryController;
@@ -7,6 +9,7 @@ use App\Http\Controllers\SettingController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SliderController;
 use App\Http\Controllers\ImageController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +24,7 @@ use App\Http\Controllers\ImageController;
 
 Route::get('/', function () {
     return view('home');
-}) ->name('home');
+}) ->name('index');
 
 Route::get('/about', function () {
     return view('about');
@@ -69,8 +72,21 @@ Route::controller(PostController::class)->group(function () {
     // Route::get('/blog', 'blog')->name('home.blog');
 });
 
-Route::group(['middleware' => 'auth'], function () {
+Route::middleware('guest')->group(function () {
+    //Login Routes
+    Route::controller(LoginController::class)->group(function () {
+        Route::get('/admin/login', 'login')->name('login');
+        Route::post('/admin/login', 'attemptLogin');
+    });
+});
 
+Route::group(['middleware' => 'auth'], function () {
+    Route::controller(AdminController::class)->group(function () {
+        Route::get('/admin/dashboard', 'dashboard')->name('admin.dashboard');
+    });
+    Route::controller(LoginController::class)->group(function () {
+        Route::get('/logout', 'logout')->name('logout');
+    });
     Route::controller(CategoryController::class)->group(function () {
         Route::post('/admin/addCategory', 'addCategory')->name('admin.addCategory');
         Route::get('/admin/categories', 'categories')->name('admin.categories');
@@ -108,3 +124,7 @@ Route::group(['middleware' => 'auth'], function () {
     });
 
 });
+
+// Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
