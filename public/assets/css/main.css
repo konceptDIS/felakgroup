@@ -64,11 +64,15 @@
 # Boxed Home
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
   --cleenhearts-font: "DM Sans", sans-serif;
+  /* --cleenhearts-font: "Open Sans", sans-serif; */
   --cleenhearts-heading-font: "Quicksand", sans-serif;
+  /* --cleenhearts-heading-font: "Open Sans", sans-serif; */
   --cleenhearts-heading-font2: "Castoro", serif;
+  /* --cleenhearts-heading-font2: "Open Sans", sans-serif; */
   --cleenhearts-special-font: "Schoolbell", cursive;
   --cleenhearts-text: #757277;
   --cleenhearts-text-rgb: 117, 114, 119;
@@ -380,6 +384,7 @@ p {
   color: var(--cleenhearts-text, #757277);
   font-weight: 400;
   line-height: 1.75;
+  text-align: justify;
 }
 @media (max-width: 575px) {
   p br {
@@ -4963,7 +4968,7 @@ textarea {
 }
 
 .main-header .felak-logo-img{
-    content: url('/assets/images/felakgroup-logo-light.png');
+    content: url('/assets/images/felakgroup-logo-mixed.png');
     max-width: 120px !important;
 }
 
@@ -7587,7 +7592,6 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--cleenhearts-base, #351C42);
 }
 .footer-widget__about-text {
-  text-transform: capitalize;
   padding-right: 10px;
   margin-bottom: 30px;
 }
@@ -8641,7 +8645,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .main-slider-two {
   font-size: 40px !important;
 }
-.main-slider-one__title__text::after {
+/* .main-slider-one__title__text::after {
   content: "";
   width: 101%;
   height: 72%;
@@ -8653,7 +8657,7 @@ body.megamenu-popup-active .mobile-nav__content {
   z-index: 3;
   transform: translateX(-100%);
   transition-delay: 1s;
-}
+} */
 @media (max-width: 1199px) {
   .main-slider-one__title__text::after {
     top: 19px;
@@ -10092,6 +10096,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .about-one__text {
   margin-bottom: 0;
+  text-align: justify;
 }
 .about-one__wrapper {
   margin: 29px 0 40px;
@@ -18767,7 +18772,7 @@ li:hover .sidebar__comments__icon::after {
 }
 .worldwide-one__text {
   font-weight: 500;
-  text-transform: capitalize;
+  text-align: justify;
   margin-bottom: 40px;
 }
 .worldwide-one__inner {

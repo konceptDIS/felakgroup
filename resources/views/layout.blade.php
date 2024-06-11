@@ -53,7 +53,7 @@
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="index.html">
+                        <a href="{{route('index')}}">
                             <img class="felak-logo-img" src="" alt="felak group" width="130">
                         </a>
                         <button type="button" class="main-header__sidebar-btn sidebar-btn__toggler">
@@ -108,7 +108,7 @@
                         <div class="col-md-12 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                             <div class="footer-widget footer-widget--about">
                                 <a href="index.html" class="footer-widget__logo">
-                                    <img src="//assets/images/logo-dark.png" width="159" alt="Cleenhearts HTML Template">
+                                    <img src="/assets/images/logo-dark.png" width="159" alt="felak logo">
                                 </a>
                                 <p class="footer-widget__about-text">At Felak Group, our subsidiaries are united by excellence and integrity. Spanning diverse sectors, we strive to make a positive impact across the globe.</p>
                             </div><!-- /.footer-widget -->

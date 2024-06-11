@@ -2,22 +2,23 @@
 
 @section('content')
 <div class="page-wrapper">
-<section class="main-slider-one">
+        <section class="main-slider-one">
 
             <div class="">
                 <div class="main-slider-one__carousel cleenhearts-owl__carousel owl-carousel" data-owl-options='{
-			"loop": true,
-			"animateOut": "fadeOut",
-			"animateIn": "fadeIn",
-			"items": 1,
-			"autoplay": true,
-			"autoplayTimeout": 7000,
-			"smartSpeed": 1000,
-			"nav": false,
-			"navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
-			"dots": true,
-			"margin": 0
-			}'>
+                "loop": true,
+                "animateOut": "fadeOut",
+                "animateIn": "fadeIn",
+                "items": 1,
+                "autoplay": true,
+                "autoplayTimeout": 7000,
+                "smartSpeed": 10000,
+                "autoplayHoverPause": true,
+                "nav": false,
+                "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                "dots": true,
+                "margin": 0
+                }'>
                     <div class="item">
                         <div class="main-slider-one__item">
                             <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.jpg);"></div>
@@ -149,7 +150,7 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="500" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="100" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
                                 <h5 class="about-info__title">Active Staff</h5>

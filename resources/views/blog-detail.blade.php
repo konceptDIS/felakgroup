@@ -21,7 +21,7 @@
                 <div class="col-lg-8">
                     <div class="blog-details">
                         <div class="blog-card blog-card-four @@extraClassName wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                            <a href="blog-details-right.html" class="blog-card__image" style="max-height: 500px">
+                            <a href="/b/{{$post->link}}" class="blog-card__image" style="max-height: 500px">
                                 <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="{{$post->title}}" style="object-fit: cover;">
                                 <div class="blog-details__hall">
                                     <span>{{$post->category->title}}</span>
@@ -32,13 +32,13 @@
                             <div class=" blog-card-four__content">
                                 <ul class="list-unstyled blog-card-four__meta">
                                     <li>
-                                        <a href="#"><span class="icon-user"></span>{{$post->user->first_name}} {{$post->user->last_name}}</a>
+                                        <a href="/b/{{$post->link}}"><span class="icon-user"></span>{{$post->user->first_name}} {{$post->user->last_name}}</a>
                                     </li>
                                     {{-- <li>
-                                        <a href="#"><span class="icon-comment"></span>2 Comments</a>
+                                        <a href="/b/{{$post->link}}"><span class="icon-comment"></span>2 Comments</a>
                                     </li> --}}
                                 </ul><!-- /.list-unstyled blog-card-four__meta -->
-                                <h3 class="blog-card__title"><a href="blog-details-right.html">{{$post->title}}</a></h3><!-- /.blog-card__title -->
+                                <h3 class="blog-card__title"><a href="/b/{{$post->link}}">{{$post->title}}</a></h3><!-- /.blog-card__title -->
                                 <p class="blog-card-four__text blog-card-four__text--one">
                                     {!!$post->content!!}
                                 </p><!-- /.blog-card-four__text -->
@@ -122,11 +122,11 @@
                                     </button>
                                 </form><!-- /.sidebar__search -->
                             </div><!-- /.sidebar__form sidebar__single -->
-                            @if (count($categories)>0)
+                            @if (count($latest)>0)
                             <div class="sidebar__posts-wrapper sidebar__single">
                                 <h4 class="sidebar__title">Latest posts</h4><!-- /.sidebar__title -->
                                 <ul class="sidebar__posts list-unstyled">
-                                    @foreach ($posts as $post)
+                                    @foreach ($latest as $post)
                                         <li class="sidebar__posts__item">
                                             <div class="sidebar__posts__image" style="overflow: hidden">
                                                 <img src="{{ asset('/storage/images/'.$post->thumbnail) }}" alt="Latest posts">
@@ -136,7 +136,7 @@
                                                         <span class="icon-user"></span>
                                                         By {{$post->user->first_name}} {{$post->user->last_name}}</a></p><!-- /.sidebar__posts__date -->
                                                 <h4 class="sidebar__posts__title">
-                                                    <a href="blog-details-right.html">{{$post->title}}</a></h4><!-- /.sidebar__posts__title -->
+                                                    <a href="/b/{{$post->link}}">{{$post->title}}</a></h4><!-- /.sidebar__posts__title -->
                                             </div><!-- /.sidebar__posts__content -->
                                         </li>
                                     @endforeach
@@ -148,7 +148,7 @@
                                 <h4 class="sidebar__title">Categories</h4><!-- /.sidebar__title -->
                                 <ul class="sidebar__categories list-unstyled">
                                     @foreach ($categories as $cat)
-                                        <li><a href="blog-details-right.html"><span>{{$cat->title}}</span> <span>({{$cat->posts->count()}})</span></a></li>
+                                        <li><a href="#"><span>{{$cat->title}}</span> <span>({{$cat->posts->count()}})</span></a></li>
                                     @endforeach
                                 </ul><!-- /.sidebar__categories list-unstyled -->
                             </div><!-- /.sidebar__categories-wrapper sidebar__single -->

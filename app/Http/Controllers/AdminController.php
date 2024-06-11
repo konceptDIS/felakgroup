@@ -13,7 +13,14 @@ class AdminController extends Controller
     public function dashboard(){
         $users = User::all();
         $posts = Post::all();
+        $views = [];
 
-        return view('admin.dashboard', compact('posts', 'users'));
+        foreach($posts as $post){
+            $views[] = $post->views;
+        }
+
+        $views = array_sum($views);
+
+        return view('admin.dashboard', compact('posts', 'users', 'views'));
     }
 }

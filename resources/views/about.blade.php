@@ -87,7 +87,7 @@
                             </div><!-- /.about-info__icon -->
                             <div class="about-info__content">
                                 <div class="about-info__counter count-box">
-                                    <h3 class="about-info__counter__text count-text" data-stop="500" data-speed="1500">00</h3>
+                                    <h3 class="about-info__counter__text count-text" data-stop="100" data-speed="1500">00</h3>
                                     <h3 class="about-info__counter__text ">+</h3>
                                 </div><!-- /.about-info__counter -->
                                 <h5 class="about-info__title">Active Staff</h5>
@@ -136,9 +136,9 @@
 
                                 <h6 class="sec-title__tagline @@extraClassName">WE ARE WORLDWIDE</h6><!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title">We Are Serving Everywhere</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title">Offering Global Services</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
-                            <p class="worldwide-one__text">Our global presence ensures you're supported, no matter your corner of the world. We're a diverse company, offering subsidies across oil & gas, technology, hospitality, engineering, and security.  Experience the power of a connected world – explore how we can empower your needs.</p><!-- /.worldwide-one__text -->
+                            <p class="worldwide-one__text">Our presence ensures you're supported, anywhere in the world. We're a diverse company, offering subsidies across oil & gas, technology, hospitality, engineering, and security.  Experience the power of a connected world – explore how we can empower your needs.</p><!-- /.worldwide-one__text -->
 
 
                         </div>

@@ -5,6 +5,7 @@ use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CompanyDetailController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SliderController;
@@ -49,6 +50,10 @@ Route::middleware('guest')->group(function () {
 Route::group(['middleware' => 'auth'], function () {
     Route::controller(AdminController::class)->group(function () {
         Route::get('/admin/dashboard', 'dashboard')->name('admin.dashboard');
+    });
+    Route::controller(CompanyDetailController::class)->group(function () {
+        Route::get('/setup', 'index')->name('admin.setup');
+        Route::post('/setup', 'update')->name('admin.setup.save');
     });
     Route::controller(LoginController::class)->group(function () {
         Route::get('/logout', 'logout')->name('logout');

@@ -26,7 +26,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-1.jpg" alt="Dr. (Mrs) Aisha Achimugu">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -46,7 +46,7 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
@@ -75,7 +75,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-2.jpg" alt="Uzoma Mbaike">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -95,7 +95,7 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
@@ -109,7 +109,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-3.jpg" alt="Ken Elofuke">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -129,13 +129,13 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
                                     <a href="volunteer-details.html">Ken Elofuke</a>
                                 </h3><!-- /.volunteer-card__name -->
-                                <h6 class="volunteer-card__designation">Group Project Supervisor</h6><!-- /.volunteer-card__designation -->
+                                <h6 class="volunteer-card__designation">Group Project Director</h6><!-- /.volunteer-card__designation -->
                             </div><!-- /.volunteer-card__content -->
                         </div><!-- /.volunteer-card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
@@ -143,7 +143,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-4.jpg" alt="Iliya Wakil">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -163,7 +163,7 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
@@ -177,7 +177,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-5.jpg" alt="Barr. Nnenna Ike">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -197,13 +197,13 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
-                                    <a href="volunteer-details.html">Barr. Nnenna Ike</a>
+                                    <a href="volunteer-details.html">Nnenna Ike</a>
                                 </h3><!-- /.volunteer-card__name -->
-                                <h6 class="volunteer-card__designation">Company Secretary</h6><!-- /.volunteer-card__designation -->
+                                <h6 class="volunteer-card__designation">Company Secretary / Legal Adviser</h6><!-- /.volunteer-card__designation -->
                             </div><!-- /.volunteer-card__content -->
                         </div><!-- /.volunteer-card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
@@ -211,7 +211,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-6.jpg" alt="Andrew Egbeshi">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -231,7 +231,7 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
@@ -245,7 +245,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-7.jpg" alt="Panna Madziga">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -265,13 +265,13 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
                                     <a href="volunteer-details.html">Panna Madziga</a>
                                 </h3><!-- /.volunteer-card__name -->
-                                <h6 class="volunteer-card__designation">Human Resource Manager</h6><!-- /.volunteer-card__designation -->
+                                <h6 class="volunteer-card__designation">Group Human Resource Manager</h6><!-- /.volunteer-card__designation -->
                             </div><!-- /.volunteer-card__content -->
                         </div><!-- /.volunteer-card -->
                     </div><!-- /.col-md-6 col-lg-4 -->
@@ -279,7 +279,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-8.jpg" alt="Aina Segun Aina">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -299,7 +299,7 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
@@ -313,7 +313,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-9.jpg" alt="Kiema Ogunlana">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -333,13 +333,13 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
                                     <a href="volunteer-details.html">Kiema Ogunlana</a>
                                 </h3><!-- /.volunteer-card__name -->
-                                <h6 class="volunteer-card__designation">New Business Development Manager
+                                <h6 class="volunteer-card__designation">General Manager New Business Development
                                     (PD-SEF)</h6><!-- /.volunteer-card__designation -->
                             </div><!-- /.volunteer-card__content -->
                         </div><!-- /.volunteer-card -->
@@ -348,7 +348,7 @@
                         <div class="volunteer-card @@extraClassName">
                             <div class="volunteer-card__image">
                                 <img src="assets/images/volunteer/volunteer-1-10.jpg" alt="Kaase Lan">
-                                <div class="volunteer-card__social">
+                                {{-- <div class="volunteer-card__social">
                                     <span class="icon-share"></span>
                                     <div class="volunteer-card__social__list">
                                         <a href="https://facebook.com/">
@@ -368,7 +368,7 @@
                                             <span class="sr-only">Youtube</span>
                                         </a>
                                     </div><!-- /.volunteer-card__social__list -->
-                                </div><!-- /.volunteer-card__social -->
+                                </div><!-- /.volunteer-card__social --> --}}
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">

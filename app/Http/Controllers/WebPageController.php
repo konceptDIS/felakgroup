@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
@@ -29,7 +30,16 @@ class WebPageController extends Controller
     }
 
     public function blog(){
-        return view('blog');
+        $categories = Category::latest()->get();
+
+        $posts = Post::orderBy('views', 'asc')->limit(10)->get();
+        $latest = Post::latest()->limit(6)->get();
+
+        return view('blog', [
+            'posts' => $posts,
+            'latest' => $latest,
+            'categories' => $categories,
+        ]);
     }
 
     public function contact(){

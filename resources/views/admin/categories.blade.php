@@ -41,7 +41,6 @@
                                     <th>Title</th>
                                     <th>Description</th>
                                     <th data-breakpoints="xs sm">Added On</th>
-                                    <th data-breakpoints="xs sm md">Last Updated</th>
                                     <th data-type="html" data-breakpoints="xs sm md">Info</th>
                                 </tr>
                                 </thead>
@@ -50,16 +49,15 @@
                                         @foreach ($categories as $key => $cat)
                                         <tr>
                                             <td>{{($key + 1)}}</td>
-                                            <td>{{$cat['title']}}</td>
-                                            <td>{{$cat['description']}}</td>
-                                            <td>{{$cat['created_at']}}</td>
-                                            <td>{{$cat['updated_at']}}</td>
+                                            <td>{{$cat->title}}</td>
+                                            <td>{{$cat->description}}</td>
+                                            <td>{{$cat->created_at->format('D, jS M | H:i')}}</td>
                                             <td>
                                                 <div class="btn-group btn-group-sm" role="group" aria-label="action buttons">
-                                                    <button type="button" class="btn ps-1 btn-primary" onclick="editCategory({{$cat['id']}})">
+                                                    <button type="button" class="btn ps-1 btn-primary" onclick="editCategory({{$cat->id}})">
                                                         <i class="bi bi-pen-fill"></i>
                                                     </button>
-                                                    <button type="button" class="btn ps-1 btn-danger"  onclick="deleteCategory({{$cat['id']}})">
+                                                    <button type="button" class="btn ps-1 btn-danger"  onclick="deleteCategory({{$cat->id}})">
                                                         <i class="bi bi-trash3-fill"></i>
                                                     </button>
                                                 </div>
@@ -74,7 +72,6 @@
                                         <th>Title</th>
                                         <th>Description</th>
                                         <th data-breakpoints="xs sm">Added On</th>
-                                        <th data-breakpoints="xs sm md">Last Updated</th>
                                         <th data-type="html" data-breakpoints="xs sm md">Info</th>
                                     </tr>
                                 </tfoot>
