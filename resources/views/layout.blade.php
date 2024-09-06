@@ -170,7 +170,7 @@
                                                     <a href="/b/{{$news->link}}">{{$news->title}}</a>
                                                 </h3><!-- /.footer-widget__news__title -->
                                                 <div class="footer-widget__news__meta">
-                                                    <span class="footer-widget__news__date">{{$post->created_at->diffForHumans()}}</span>
+                                                    <span class="footer-widget__news__date">{{$news->created_at->diffForHumans()}}</span>
                                                 </div><!-- /.footer-widget__news__meta -->
                                             </div><!-- /.footer-widget__news__content -->
                                         </div><!-- /.footer-widget__news__single -->
