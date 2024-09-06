@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home || Felak Concept Group </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/felakgroup.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/felakgroup.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/felakgroup.png" />
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="//assets/images/felakgroup.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="//assets/images/felakgroup.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="//assets/images/felakgroup.png" />
+    <link rel="manifest" href="//assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Felak Group" />
 
     <!-- fonts -->
@@ -37,6 +37,18 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <style>
+        .footer-widget__news__title a {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            line-height: 1.5;
+            max-height: 3em;
+        }
+    </style>
 </head>
 
 <body  class="custom-cursor">
@@ -45,7 +57,7 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(/assets/images/loader.png);"></div>
+        <div class="preloader__image" style="background-image: url(//assets/images/loader.png);"></div>
     </div>
     <!-- /.preloader -->
 <div class="page-wrapper">
@@ -53,7 +65,7 @@
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
-                        <a href="index.html">
+                        <a href="{{route('index')}}">
                             <img class="felak-logo-img" src="" alt="felak group" width="130">
                         </a>
                         <button type="button" class="main-header__sidebar-btn sidebar-btn__toggler">
@@ -63,38 +75,25 @@
                     <div class="main-header__right">
                         <nav class="main-header__nav main-menu">
                             <ul class="main-menu__list">
-
-
-                                <li class="megamenu">
-                                    <a href="{{route('home')}}">Home</a>
+                                <li class="{{$page == 'Home' ? 'current' : ''}}">
+                                    <a href="{{route('index')}}">Home</a>
                                 </li>
-
-
-                                <li>
+                                <li class="{{$page == 'About' ? 'current' : ''}}">
                                     <a href="{{route('about')}}">About Us</a>
                                 </li>
-
-                                <li>
+                                <li class="{{$page == 'Subsidiaries' ? 'current' : ''}}">
                                     <a href="{{route('subsidiaries')}}">Subsidiaries</a>
                                 </li>
-
-                                <li>
+                                <li class="{{$page == 'Team' ? 'current' : ''}}">
                                     <a href="{{route('team')}}">Team</a>
                                 </li>
-
-                                <li class="dropdown">
-                                    <a href="#">Investors Ties</a>
-
-                                </li>
-
-                                <li>
+                                <li class="{{$page == 'CSR' ? 'current' : ''}}">
                                     <a href="{{route('csr')}}">CSR</a>
                                 </li>
-
-                                <li>
+                                <li class="{{$page == 'Blog' ? 'current' : ''}}">
                                     <a href="{{route('blog')}}">Blog</a>
                                 </li>
-                                <li>
+                                <li class="{{$page == 'Contact' ? 'current' : ''}}">
                                     <a href="{{route('contact')}}">Contact</a>
                                 </li>
                             </ul>
@@ -121,7 +120,7 @@
                         <div class="col-md-12 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                             <div class="footer-widget footer-widget--about">
                                 <a href="index.html" class="footer-widget__logo">
-                                    <img src="assets/images/logo-dark.png" width="159" alt="Cleenhearts HTML Template">
+                                    <img src="/assets/images/logo-dark.png" width="159" alt="felak logo">
                                 </a>
                                 <p class="footer-widget__about-text">At Felak Group, our subsidiaries are united by excellence and integrity. Spanning diverse sectors, we strive to make a positive impact across the globe.</p>
                             </div><!-- /.footer-widget -->
@@ -146,11 +145,11 @@
                             <div class="footer-widget footer-widget--links">
                                 <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="subsidiaries.html">Subsidiaries</a></li>
-                                    <li><a href="csr.html">CSR</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="{{route('about')}}">About Us</a></li>
+                                    <li><a href="{{route('team')}}">Team</a></li>
+                                    <li><a href="{{route('subsidiaries')}}">Subsidiaries</a></li>
+                                    <li><a href="{{route('csr')}}">CSR</a></li>
+                                    <li><a href="{{route('contact')}}">Contact Us</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-3 -->
@@ -158,28 +157,24 @@
                             <div class="footer-widget footer-widget--news">
                                 <h2 class="footer-widget__title">Recent news</h2><!-- /.footer-widget__title -->
                                 <div class="footer-widget__news">
-                                    <div class="footer-widget__news__single">
-                                        <div class="footer-widget__news__image">
-                                            <img src="assets/images/blog/footer-widget-blog-1-1.png" alt="blog">
-                                        </div><!-- /.footer-widget__news__image -->
-                                        <div class="footer-widget__news__content">
-                                            <h3 class="footer-widget__news__title"><a href="blog-details-right.html">There are many varia of passages of</a></h3><!-- /.footer-widget__news__title -->
-                                            <div class="footer-widget__news__meta">
-                                                <span class="footer-widget__news__date">2 weeks ago</span>
-                                            </div><!-- /.footer-widget__news__meta -->
-                                        </div><!-- /.footer-widget__news__content -->
-                                    </div><!-- /.footer-widget__news__single -->
-                                    <div class="footer-widget__news__single">
-                                        <div class="footer-widget__news__image">
-                                            <img src="assets/images/blog/footer-widget-blog-1-2.png" alt="blog">
-                                        </div><!-- /.footer-widget__news__image -->
-                                        <div class="footer-widget__news__content">
-                                            <h3 class="footer-widget__news__title"><a href="blog-details-right.html">Mauris gravida lacus metus, ac sagittis</a></h3><!-- /.footer-widget__news__title -->
-                                            <div class="footer-widget__news__meta">
-                                                <span class="footer-widget__news__date">2 weeks ago</span>
-                                            </div><!-- /.footer-widget__news__meta -->
-                                        </div><!-- /.footer-widget__news__content -->
-                                    </div><!-- /.footer-widget__news__single -->
+                                    @php
+                                        $news = App\Models\Post::latest()->limit(2)->get();
+                                    @endphp
+                                    @foreach($news as $news)
+                                        <div class="footer-widget__news__single">
+                                            <div class="footer-widget__news__image">
+                                                <img src="{{ asset('/storage/images/'.$news->thumbnail) }}" alt="{{$news->title}}">
+                                            </div><!-- /.footer-widget__news__image -->
+                                            <div class="footer-widget__news__content">
+                                                <h3 class="footer-widget__news__title">
+                                                    <a href="/b/{{$news->link}}">{{$news->title}}</a>
+                                                </h3><!-- /.footer-widget__news__title -->
+                                                <div class="footer-widget__news__meta">
+                                                    <span class="footer-widget__news__date">{{$post->created_at->diffForHumans()}}</span>
+                                                </div><!-- /.footer-widget__news__meta -->
+                                            </div><!-- /.footer-widget__news__content -->
+                                        </div><!-- /.footer-widget__news__single -->
+                                    @endforeach
                                 </div><!-- /.footer-widget__news -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-4 col-xl-3 -->
@@ -187,7 +182,7 @@
                 </div><!-- /.container -->
             </div><!-- /.main-footer__top -->
             <div class="main-footer__bottom">
-                <div class="main-footer__bottom__bg" style="background: url('assets/images/backgrounds/footer-bottom-bg-1-2.png');"></div><!-- /.main-footer__bottom-bg -->
+                <div class="main-footer__bottom__bg" style="background: url('/assets/images/backgrounds/footer-bottom-bg-1-2.png');"></div><!-- /.main-footer__bottom-bg -->
                 <div class="container">
                     <div class="main-footer__bottom__inner">
                         <p class="main-footer__copyright">
@@ -208,7 +203,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/felakgroup-logo-light.png" width="130" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img src="/assets/images/felakgroup-logo-light.png" width="130" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>

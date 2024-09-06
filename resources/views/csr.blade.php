@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout', [$page = 'CSR'])
 
 @section('content')
 <div class="page-wrapper">
@@ -28,7 +28,7 @@
                         <div class="help-people__content__inner">
                             <div class="sec-title">
 
-                                
+
                                 <h3 class="sec-title__title">Sam Empowerment Foundation (SEF)</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="help-people__text1">Sam Empowerment Foundation (SEF) is a registered non – governmental, non-religious, non-political Organization whose sole objective is to provide service to humanity.<br></p>
@@ -42,13 +42,13 @@
                                     </div>
                                     <span class="cleenhearts-btn__text">Learn More</span>
                                 </a><!-- /.cleenhearts-btn -->
-                                
+
                             </div><!-- /.help-people__content__bottom -->
                         </div><!-- /.help-people__content__inner -->
                     </div><!-- /.col-xl-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-           
+
         </section><!-- /.help-people -->
         <section class="worldwide-one @@extraClassName section-space">
             <div class="worldwide-one__bg" style="background-image: url('assets/images/backgrounds/worldwide-bg-1-1.png');"></div><!-- /.worldwide-one__bg -->
@@ -63,8 +63,8 @@
                                 <h3 class="sec-title__title">We Are Serving Everywhere</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="worldwide-one__text">Our global presence ensures you're supported, no matter your corner of the world. We're a diverse company, offering subsidies across oil & gas, technology, hospitality, engineering, and security.  Experience the power of a connected world – explore how we can empower your needs.</p><!-- /.worldwide-one__text -->
-                            
-                            
+
+
                         </div>
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6">
@@ -73,61 +73,61 @@
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--two">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--three">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--four">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                               
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--five">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--six">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--seven">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--eight">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                             <div class="worldwide-one__location worldwide-one__location--nine">
                                 <button type="button" class="worldwide-one__location__btn">
                                     <span class="worldwide-one__location__btn__box"></span>
                                 </button><!-- /.worldwide-one__location__btn -->
-                                
+
                             </div><!-- /.worldwide-one__location -->
                         </div><!-- /.worldwide-one__right -->
                     </div><!-- /.col-xl-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-            
+
         </section><!-- /.worldwide-one section-space -->
 </div>
 @endsection
