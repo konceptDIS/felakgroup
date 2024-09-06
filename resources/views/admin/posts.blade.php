@@ -43,9 +43,9 @@
                                         <th>Title</th>
                                         <th>Author</th>
                                         <th>Category</th>
-                                        <th>Date Published</th>
                                         <th>Views</th>
                                         <th>Unpublish</th>
+                                        <th>Last Updated</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -57,11 +57,11 @@
                                                 <td><a href="/b/{{$rec->link}}" target="_blank">{{$rec->title}}</a></td>
                                                 <td>{{$rec->user->first_name}} {{$rec->user->last_name}}</td>
                                                 <td>{{$rec->category->title}}</td>
-                                                <td>{{$rec->created_at}}</td>
                                                 <td>{{$rec->views}}</td>
                                                 <td>
                                                     <button onclick="setDraft('{{$rec->id}}')" class="btn btn-warning btn-sm">Unpub</button>
                                                 </td>
+                                                <td>{{$rec->updated_at->format('D, jS M | H:i')}}</td>
                                                 <td>
                                                     <div class="btn-group btn-group-sm" role="group" aria-label="action buttons">
                                                         <a href="/admin/editPost/{{$rec->id}}" class="btn ps-1 btn-primary btn-sm" role="button"><i class="bi bi-pen-fill"></i> </a>
@@ -80,9 +80,9 @@
                                         <th>Title</th>
                                         <th>Author</th>
                                         <th>Category</th>
-                                        <th>Date Published</th>
                                         <th>Views</th>
                                         <th>Unpublish</th>
+                                        <th>Last Updated</th>
                                         <th>Actions</th>
                                     </tr>
                                 </tfoot>

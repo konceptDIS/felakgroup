@@ -24,7 +24,7 @@
                 <div class="menu-title">Settings</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bi bi-circle"></i>Basic Info</a></li>
+                <li> <a href="{{route('admin.setup')}}"><i class="bi bi-circle"></i>Basic Info</a></li>
                 <li> <a href="#"><i class="bi bi-circle"></i>Users</a></li>
             </ul>
         </li>
@@ -53,13 +53,13 @@
                 </li>
             </ul>
         </li>
-        <li>
+        {{-- <li>
             <a href="#">
                 <div class="parent-icon"><i class="bi bi-person-lines-fill"></i>
                 </div>
                 <div class="menu-title">Carousels</div>
             </a>
-        </li>
+        </li> --}}
         <li>
             <a href="#">
                 <div class="parent-icon"><i class="bi bi-person-lines-fill"></i>

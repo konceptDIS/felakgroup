@@ -10,14 +10,13 @@
                         <div class="d-flex align-items-center">
                             <div class="">
                                 <p class="mb-1">Total Views</p>
-                                <h4 class="mb-0">0</h4>
+                                <h4 class="mb-0">{{$views ?? '0'}}</h4>
                                 <p class="mb-0 mt-2 font-13"><i class="bi bi-arrow-up"></i><span>All time</span></p>
                             </div>
                             <div class="ms-auto widget-icon bg-primary text-white">
                                 <i class="bi bi-person-lines-fill"></i>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
