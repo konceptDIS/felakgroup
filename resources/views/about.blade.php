@@ -1,4 +1,4 @@
-@extends('layout', [$page = 'About'])
+    @extends('layout', [$page = 'About'])
 
 @section('content')
 <div class="page-wrapper">
@@ -20,7 +20,7 @@
                 <div class="row gutter-y-50">
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/felak-staff.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
                     <div class="col-xl-6">
