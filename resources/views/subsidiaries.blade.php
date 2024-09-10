@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-11.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
                     <div class="help-people__content col-xl-6">
@@ -69,7 +69,7 @@
 
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-3.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
 
@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-4.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
                     <div class="help-people__content col-xl-6">
@@ -143,7 +143,7 @@
 
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-5.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
 
@@ -164,7 +164,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-6.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
                     <div class="help-people__content col-xl-6">
@@ -217,7 +217,7 @@
 
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-7.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
 
@@ -238,7 +238,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-8.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
                     <div class="help-people__content col-xl-6">
@@ -293,7 +293,7 @@
 
                     <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                         <div class="faq-one__image">
-                            <img src="assets/images/faq/faq-1-2.jpg" alt="faq-image">
+                            <img src="assets/images/faq/faq-1-9.jpg" alt="faq-image">
                         </div><!-- /.faq-one__image -->
                     </div><!-- /.col-xl-6 col-lg-6 -->
 

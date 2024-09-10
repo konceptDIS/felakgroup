@@ -36,7 +36,7 @@
                             <p>We are a structured organisation that has within her employ a team of seasoned professionals and experienced staff whose technical expertise include Community Mobilization, HIV and AIDS, Testing and Counseling, HIV programing amongst others. We also have an outstanding Board of Trustees (BOT) who are committed to contributing to the successful deployment of our aims and objectives as well as provide oversight functions to ensure that the strategic management and direction of the Foundation are effective.<br></p>
                             <p>We are also affiliated to Civil Society Action Coalition on Education for All (CSACEFA), Civil Society for HIV/AIDS in Nigeria (CISHAN), Association of Orphaned and Vulnerable Children Network in Nigeria (AONN) as well as registered with the Social Development Secretariat, Federal Capital Territory Administration (FCTA).</p> -->
                             <div class="help-people__content__bottom">
-                                <a href="become-a-volunteer.html" class="cleenhearts-btn">
+                                <a href="https://samempowermentfoundation.org" class="cleenhearts-btn">
                                     <div class="cleenhearts-btn__icon-box">
                                         <div class="cleenhearts-btn__icon-box__inner"><span class="icon-duble-arrow"></span></div>
                                     </div>

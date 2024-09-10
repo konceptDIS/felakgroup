@@ -324,9 +324,9 @@
                         <img src="{{asset('/assets/images/blog/blog-3-7.jpg')}}" alt="brand" class="client-carousel__item__img">
                         <img src="{{asset('/assets/images/blog/blog-3-7.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
                     </a><!-- /.owl-slide-item-->
-                    <a href="http://samempowermentfoundation.org/" class="client-carousel__item">
-                        <img src="{{asset('/assets/images/blog/blog-3-8.jpg')}}" alt="brand" class="client-carousel__item__img">
-                        <img src="{{asset('/assets/images/blog/blog-3-8.jpg')}}" alt="brand" class="client-carousel__item__hover-img">
+                    <a href="http://altexsecurity.com/" class="client-carousel__item">
+                        <img src="{{asset('/assets/images/blog/blog-3-9.png')}}" alt="brand" class="client-carousel__item__img">
+                        <img src="{{asset('/assets/images/blog/blog-3-9.png')}}" alt="brand" class="client-carousel__item__hover-img">
                     </a><!-- /.owl-slide-item-->
                 </div><!-- /.thm-owl__slider -->
             </div><!-- /.container -->
