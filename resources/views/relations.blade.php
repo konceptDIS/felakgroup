@@ -8,7 +8,7 @@
             <div class="container">
                 <h2 class="page-header__title">Investor Relations</h2>
                 <ul class="cleenhearts-breadcrumb list-unstyled">
-                    <li><i class="icon-home"></i> <a href="index.html">Home</a></li>
+                    <li><i class="icon-home"></i> <a href="{{route('index')}}">Home</a></li>
                     <li><span>Investor Relations</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
             </div><!-- /.container -->
