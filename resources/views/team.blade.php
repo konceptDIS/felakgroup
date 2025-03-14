@@ -235,7 +235,7 @@
                             </div><!-- /.volunteer-card__image -->
                             <div class="volunteer-card__content" style="background-image: url('assets/images/backgrounds/volunteer-bg-1-1.png');">
                                 <h3 class="volunteer-card__name">
-                                    <a href="volunteer-details.html">Andrew Egbeshi</a>
+                                    <a href="volunteer-details.html">Andrew Ebeshi</a>
                                 </h3><!-- /.volunteer-card__name -->
                                 <h6 class="volunteer-card__designation">Project Manager</h6><!-- /.volunteer-card__designation -->
                             </div><!-- /.volunteer-card__content -->
